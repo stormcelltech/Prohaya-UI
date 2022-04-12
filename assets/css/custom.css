@@ -4,6 +4,12 @@
     /* box-sizing: border-box; */
 }
 
+:root {
+    --primary-color: #937114;
+    --secondary-color: #2B96FF;
+    --color-gray: #35524A;
+}
+
 
 /* FONT SETTINGS */
 
@@ -84,7 +90,7 @@ body {
 /* HEADING SETTINGS */
 
 .custom-heading-1 {
-    color: #937114;
+    color: var(--primary-color);
     font-family: "Raleway Bold";
 }
 
@@ -100,7 +106,7 @@ body {
 
 .custom-btn-primary {
     font-family: "Nunito Sans SemiBold";
-    background: #2B96FF;
+    background: var(--secondary-color);
     border-radius: 3px;
     padding: 10px 40px;
     color: #ffffff;
@@ -110,13 +116,13 @@ body {
 
 .signin-link {
     font-family: "Nunito Sans SemiBold";
-    color: #2B96FF;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
 .custom-btn-secondary {
     font-family: "Nunito Sans SemiBold";
-    background: #937114;
+    background: var(--primary-color);
     border-radius: 3px;
     padding: 10px 20px;
     color: #ffffff;
@@ -435,7 +441,8 @@ body {
 }
 
 .footer-settings {
-    padding: 50px 20px;
+    /* padding: 50px 20px; */
+    padding-top: 50px;
 }
 
 .footer-bg img {
@@ -491,6 +498,20 @@ body {
     color: #2B96FF;
     border: solid 2px #2B96FF;
     font-family: "Raleway Bold";
+}
+
+.custom-outline-secondary {
+    background: transparent;
+    color: #937114;
+    border: solid 2px #937114;
+    font-family: "Raleway Bold";
+    padding: 10px 40px;
+}
+
+.custom-outline-secondary:hover {
+    color: #937114;
+    box-shadow: none!important;
+    outline: none!important;
 }
 
 .custom-primary-outline-btn:hover {
@@ -595,3 +616,148 @@ body {
 
 
 /* Signup Settings end */
+
+.card-id {
+    font-family: "Raleway Bold";
+    font-size: 25px;
+}
+
+.card-avail {
+    font-family: "Raleway Bold";
+    color: #937114;
+    font-size: 15px;
+}
+
+.card-elevation {
+    font-size: 25px;
+}
+
+.card-rate i,
+.card-rate span.rate-number {
+    font-size: 25px;
+    color: #937114;
+    font-weight: 600;
+}
+
+.card-rate i {
+    padding: 0 20px;
+}
+
+.card-port {
+    font-family: "Raleway Bold";
+    margin-top: 20px;
+}
+
+.btn-card-primary {
+    background: #2B96FF;
+    padding: 6px 30px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.btn-card-primary:hover {
+    color: #fff!important;
+}
+
+.section-settings-6 {
+    padding: 100px 0;
+    background: #FFF7E4;
+}
+
+.heading-paragraph {
+    color: #000;
+    font-weight: 500;
+}
+
+.custom-plain-primary-btn {
+    background: #2B96FF;
+    color: #fff;
+    /* font-family: "Raleway Bold"; */
+    padding: 10px 90px;
+    border-radius: 3px;
+}
+
+.custom-plain-primary-btn:hover {
+    color: #fff;
+}
+
+.img-container img {
+    width: 700px;
+    position: absolute;
+    margin-top: -160px;
+}
+
+.img-2 img {
+    margin: 0 auto;
+}
+
+.section-settings-7 {
+    /* padding-bottom: 100px!important; */
+}
+
+.line-divider div {
+    background: #E4DBC4;
+    width: 100%;
+    height: 3px;
+    margin: 110px 0;
+}
+
+.recentOrder {
+    font-family: "Raleway Bold";
+    color: #35524A;
+}
+
+.form-select.custom-form-select option {
+    /* width: 100px!important; */
+    border-radius: 0!important;
+    border: solid 2px #937114;
+    font-size: 11px;
+}
+
+.form-select.custom-form-select {
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 0!important;
+    border: solid 2px var(--primary-color);
+}
+
+.form-select.custom-form-select.selected {
+    /* font-size: 10px; */
+}
+
+.custom-brown-btn {
+    background: var(--primary-color)!important;
+    color: #fff;
+    border-radius: 0!important;
+}
+
+.custom-container-margin {
+    margin-top: -120px;
+}
+
+.form-custom-control {
+    border: solid 1px var(--primary-color);
+}
+
+::placeholder {
+    color: #000!important;
+}
+
+.footer-cover {
+    background: url(../img/background/footer-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+}
+
+.footer-link {
+    font-weight: 600;
+    color: var(--color-gray);
+}
+
+.footer-copyright {
+    color: var(--primary-color);
+}
