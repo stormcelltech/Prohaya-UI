@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prohaya</title>
     <script src="./assets/js/jquery-3.6.0.js"></script>
+    <script src="assets/OwlCarousel/dist/owl.carousel.min.js"></script>
     <script src="./assets/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/custom.css">
@@ -14,6 +15,10 @@
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <script src="https://kit.fontawesome.com/151ccf5101.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/OwlCarousel/dist/assets/owl.theme.default.min.css">
+    
+
 
 
 </head>
@@ -66,16 +71,20 @@
                     </div>
                 </div>
                 <div class="col-md-6 mt-5">
-                    <div class="custom-box">
+                    <div class="custom-box d-md-block d-none">
                         <div></div>
                     </div>
-                    <div class="header-img">
+                    <div class="header-img d-md-block d-none">
                         <img src="assets/img/header component/AdobeStock_435388097_Preview_Editorial_Use_Only 1.png" alt="">
+                    </div>
+
+                    <div class="custom-header-img2 d-md-none">
+                        <img src="assets/img/background/custom-header-img.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-6 mb-5 d-md-none custom-heading-margin-sm">
                     <h1 class="custom-heading-1 custom-heading .custom-heading-sm">
-                        Looking to hire a heavy <br> duty equipment ?
+                        Looking to hire a heavy <br class="custom-br d-md-block d-none"> duty equipment ?
                     </h1>
                     <div class="line"></div>
                     <p class="custom-paragraph">
@@ -229,7 +238,7 @@
         </div>
     </section>
 
-    <section class="section-settings-3">
+    <!-- <section class="section-settings-3">
         <div class="container">
             <h1 class="custom-heading-3 mt-5 text-center">
                 What do you need ?
@@ -282,7 +291,87 @@
 
 
         </div>
+    </section> -->
+
+    <!-- Owlcarousel slider  -->
+    <section class="section-settings-3">
+        <div class="container">
+            <h1 class="custom-heading-3 mt-5 text-center">
+                What do you need ?
+            </h1>
+        </div>
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+                <div class="card ms-3 me-3 owl-card shadow" style="">
+                <img src="./assets/img/background/unsplash_jibUsRaauLY.png" width="50px" class="p-3" alt="...">
+                <div class="card-title custom-card-title-2 px-3">
+                    Excavators
+                </div>  
+                <div class="card-text font-weight-bold px-3 pb-3">
+                    Available
+                </div>
+            </div>
+                <div class="card ms-3 me-3 owl-card shadow" style="">
+                <img src="./assets/img/background/unsplash_AI2YT94sSeA@2x.png" width="50" class="card-img-top p-3" alt="...">
+                <div class="card-title custom-card-title-2 px-3">
+                    Bulldozers
+                </div>    
+                <div class="card-text font-weight-bold px-3 pb-3">
+                    Available
+                </div>
+            </div>
+                <div class="card ms-3 me-3 owl-card shadow" style="">
+                <img src="./assets/img/background/unsplash_jibUsRaauLY.png" width="50" class="card-img-top p-3" alt="...">
+                <div class="card-title custom-card-title-2 px-3">
+                    Graders
+                </div>  
+                <div class="card-text font-weight-bold px-3 pb-3">
+                    Available
+                </div>
+            </div>
+                <div class="card ms-3 me-3 owl-card shadow" style="">
+                    <img src="./assets/img/background/unsplash_9qfH_EIzH6w.png" width="50" class="card-img-top p-3" alt="...">
+                    <div class="card-title custom-card-title-2 px-3">
+                        Excavators
+                    </div>
+                    <div class="card-text font-weight-bold px-3 pb-3">
+                        Available
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <script>
+           $(document).ready(function(){
+               $(".owl-carousel").owlCarousel({
+                   nav:true,
+                   navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
+                //    slideBy: 2,
+                   autoplay:true,
+                   dots:true,
+                   loop:true,
+                   responsive:{
+                       0: {
+                           items:1,
+                           nav:false,
+                       },
+                       425: {
+                           items: 2,
+                           nav:false,
+                       },
+                       758: {
+                           items: 3,
+                       }
+                   }
+
+               });
+           });
+        </script>
     </section>
+    <!-- Owlcarousel slider end -->
 
     <section class="section-settings-4">
         <div class="container">
@@ -293,7 +382,7 @@
         </div>
 
         <div class="container">
-            <div class="circle-quote-container d-flex justify-content-start">
+            <div class="circle-quote-container d-flex justify-content-start d-md-block d-none">
                 <div class="circle-quote d-inline-flex">
                     <span class="circle-quote-img"><img src="./assets/img/icon/Vector.svg" alt=""></span><span></span>
                 </div>
@@ -355,7 +444,7 @@
                 </div>
             </div>
 
-            <div class="circle-quote-container d-flex justify-content-end">
+            <div class="circle-quote-container d-flex justify-content-end d-md-block d-none">
                 <div class="circle-quote-2 d-inline-flex">
                     <!-- <span class="circle-quote-img"><img src="./assets/img/icon/Vector.svg" alt=""></span><span></span> -->
                     <span></span> <span class="circle-quote-img-2"><img src="./assets/img/icon/Vector.svg" alt=""></span>
@@ -445,17 +534,12 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="footer-bg">
-                <img src="./assets/img/background/footer-bg.png" class="fixed-bottom" alt="">
-            </div> -->
+
 
         </div>
 
     </footer>
-    <!-- <div class="footer-custom-style">
-        <div></div>
-        <div></div>
-    </div> -->
+
     <div class="footer-cover">
     </div>
 
