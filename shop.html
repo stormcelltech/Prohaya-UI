@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prohaya</title>
+    <script src="./assets/js/jquery-3.6.0.js"></script>
+    <script src="./assets/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
+    <script src="https://kit.fontawesome.com/151ccf5101.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light custom-navWidth bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo/logo.png" class="logo" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav custom-nav-link ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active custom-active" href="shop.html">Shop</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="custom-nav-btn-container">
+                    <a href="login.html" class="signin-link">Sign in</a>
+                    <a href="signup.html" class="custom-btn-primary">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <header class="custom-header-padding">
+        <div class="container-fluid">
+            <!-- <div class="search-container-2 d-md-none">
+                <div class="input-group mb-3">
+                  
+                    <select name="" id="" class="form-control">
+                        <option value="" disabled selected>Location</option>
+                    </select>
+                    <select name="" id="" class="form-control">
+                        <option value="" disabled selected>Categories</option>
+                    </select>
+                    <select name="" id="" class="form-control">
+                        <option value="" disabled selected>Price</option>
+                    </select>
+                    <button class="btn custom-sm-btn" type="button" id="button-addon2">Searcb</button>
+                </div>
+            </div> -->
+
+
+        </div>
+        <div class="container">
+
+            <div class="search-container d-md-block d-none">
+                <div class="input-group custom-select">
+
+                    <span class="pt-2">
+                            <img src="./assets/img/icon/location.png" width="35px" alt="">
+                        </span>
+                    <select class="form-select  select-css custom-color" id="inputGroupSelect04" aria-label="Example select with button addon">
+                            <option selected>Location</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    <span class="pt-2">
+                            <img src="./assets/img/icon/file.png" width="35px" alt="">
+                        </span>
+                    <select class="form-select select-css" id="inputGroupSelect04" aria-label="Example select with button addon">
+                                  <option selected>Categories</option>
+                                  <option value="1">One</option>
+                                  <option value="2">Two</option>
+                                  <option value="3">Three</option>
+                                </select>
+                    <span class="pt-2">
+                                    <img src="./assets/img/icon/dollar-bill.png" width="35px" alt="">
+                                </span>
+                    <select class="form-select select-css" id="inputGroupSelect04" aria-label="Example select with button addon">
+                                  <option selected>Price</option>
+                                  <option value="1">One</option>
+                                  <option value="2">Two</option>
+                                  <option value="3">Three</option>
+                                </select>
+                    <button class="btn custom-outline-secondary" type="button">Search</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container custom-container-margin">
+        <div class="input-group d-md-none">
+            <select class="form-select custom-form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+              <option class="selected" selected>Location</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select class="form-select custom-form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                <option class="selected" selected>Categories</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            <select class="form-select custom-form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                <option class="selected" selected>Price</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            <button class="btn btn-outline-secondary custom-brown-btn" type="button"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+    <section class="section-settings-7">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="float-container">
+                                <div class="float-start">
+                                    <div class="card-id">
+                                        CAT K6773
+                                    </div>
+                                    <div class="card-elevation">
+                                        Excavator
+                                    </div>
+                                    <div class="card-port">
+                                        <img src="./assets/img/icon/location.png" width="22px" alt=""> Port harcourt
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <div class="card-avail text-end">
+                                        Available
+                                    </div>
+                                    <div class="card-rate">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span><span class="rate-number">4.2</span>
+                                    </div>
+                                    <div class="card-btn text-end">
+                                        <a href="#" class="btn btn-card-primary">Hire</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="float-container">
+                                <div class="float-start">
+                                    <div class="card-id">
+                                        CAT K6773
+                                    </div>
+                                    <div class="card-elevation">
+                                        Excavator
+                                    </div>
+                                    <div class="card-port">
+                                        <img src="./assets/img/icon/location.png" width="22px" alt=""> Port harcourt
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <div class="card-avail text-end">
+                                        Available
+                                    </div>
+                                    <div class="card-rate">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span><span class="rate-number">4.2</span>
+                                    </div>
+                                    <div class="card-btn text-end">
+                                        <a href="#" class="btn btn-card-primary">Hire</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="float-container">
+                                <div class="float-start">
+                                    <div class="card-id">
+                                        CAT K6773
+                                    </div>
+                                    <div class="card-elevation">
+                                        Excavator
+                                    </div>
+                                    <div class="card-port">
+                                        <img src="./assets/img/icon/location.png" width="22px" alt=""> Port harcourt
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <div class="card-avail text-end">
+                                        Available
+                                    </div>
+                                    <div class="card-rate">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span><span class="rate-number">4.2</span>
+                                    </div>
+                                    <div class="card-btn text-end">
+                                        <a href="#" class="btn btn-card-primary">Hire</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="float-container">
+                                <div class="float-start">
+                                    <div class="card-id">
+                                        CAT K6773
+                                    </div>
+                                    <div class="card-elevation">
+                                        Excavator
+                                    </div>
+                                    <div class="card-port">
+                                        <img src="./assets/img/icon/location.png" width="22px" alt=""> Port harcourt
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <div class="card-avail text-end">
+                                        Available
+                                    </div>
+                                    <div class="card-rate">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span><span class="rate-number">4.2</span>
+                                    </div>
+                                    <div class="card-btn text-end">
+                                        <a href="#" class="btn btn-card-primary">Hire</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="float-container">
+                                <div class="float-start">
+                                    <div class="card-id">
+                                        CAT K6773
+                                    </div>
+                                    <div class="card-elevation">
+                                        Excavator
+                                    </div>
+                                    <div class="card-port">
+                                        <img src="./assets/img/icon/location.png" width="22px" alt=""> Port harcourt
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <div class="card-avail text-end">
+                                        Available
+                                    </div>
+                                    <div class="card-rate">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span><span class="rate-number">4.2</span>
+                                    </div>
+                                    <div class="card-btn text-end">
+                                        <a href="#" class="btn btn-card-primary">Hire</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="float-container">
+                                <div class="float-start">
+                                    <div class="card-id">
+                                        CAT K6773
+                                    </div>
+                                    <div class="card-elevation">
+                                        Excavator
+                                    </div>
+                                    <div class="card-port">
+                                        <img src="./assets/img/icon/location.png" width="22px" alt=""> Port harcourt
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <div class="card-avail text-end">
+                                        Available
+                                    </div>
+                                    <div class="card-rate">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span><span class="rate-number">4.2</span>
+                                    </div>
+                                    <div class="card-btn text-end">
+                                        <a href="#" class="btn btn-card-primary">Hire</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="float-container">
+                                <div class="float-start">
+                                    <div class="card-id">
+                                        CAT K6773
+                                    </div>
+                                    <div class="card-elevation">
+                                        Excavator
+                                    </div>
+                                    <div class="card-port">
+                                        <img src="./assets/img/icon/location.png" width="22px" alt=""> Port harcourt
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <div class="card-avail text-end">
+                                        Available
+                                    </div>
+                                    <div class="card-rate">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span><span class="rate-number">4.2</span>
+                                    </div>
+                                    <div class="card-btn text-end">
+                                        <a href="#" class="btn btn-card-primary">Hire</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="float-container">
+                                <div class="float-start">
+                                    <div class="card-id">
+                                        CAT K6773
+                                    </div>
+                                    <div class="card-elevation">
+                                        Excavator
+                                    </div>
+                                    <div class="card-port">
+                                        <img src="./assets/img/icon/location.png" width="22px" alt=""> Port harcourt
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <div class="card-avail text-end">
+                                        Available
+                                    </div>
+                                    <div class="card-rate">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span><span class="rate-number">4.2</span>
+                                    </div>
+                                    <div class="card-btn text-end">
+                                        <a href="#" class="btn btn-card-primary">Hire</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="line-divider">
+        <div></div>
+    </div>
+    <section class="section-settings-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="custom-heading-2 text-dark">
+                        Do you have an equipment you want to list ?
+                    </h1>
+
+                    <p class="heading-paragraph text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet turpis a nec nibh diam massa blandit leo consequat. Dapibus sed praesent odio velit quis augue vel mattis risus.
+                    </p>
+                    <a href="#" class="btn custom-plain-primary-btn text-center text-lg-left">Click Here to List</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-container">
+                        <img src="assets/img/background/img-component.png" class="d-md-block d-none" alt="">
+                    </div>
+                    <div class="img-2 d-flex justify-content-center mt-5">
+                        <img src="assets/img/background/img-component.png" class="d-md-none" width="400px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <section class="section-settings-3">
+        <div class="container">
+            <h1 class="custom-heading-3 mt-5 text-center">
+                What do you need ?
+            </h1>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./assets/img/background/unsplash_jibUsRaauLY.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <div class="card-title custom-card-title-2">
+                                Excavators
+                            </div>
+                            <div class="card-text font-weight-bold">
+                                Available
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./assets/img/background/unsplash_AI2YT94sSeA@2x.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <div class="card-title custom-card-title-2">
+                                Bulldozers
+                            </div>
+                            <div class="card-text font-weight-bold">
+                                Available
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./assets/img/background/unsplash_9qfH_EIzH6w.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <div class="card-title custom-card-title-2">
+                                Graders
+                            </div>
+                            <div class="card-text font-weight-bold">
+                                Available
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1 class="recentOrder">Recent Orders</h1>
+            <div class="row my-5">
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="float-container">
+                                <div class="float-start">
+                                    <div class="card-id">
+                                        CAT K6773
+                                    </div>
+                                    <div class="card-elevation">
+                                        Excavator
+                                    </div>
+                                    <div class="card-port">
+                                        <img src="./assets/img/icon/location.png" width="22px" alt=""> Port harcourt
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <div class="card-avail text-end">
+                                        Available
+                                    </div>
+                                    <div class="card-rate">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span><span class="rate-number">4.2</span>
+                                    </div>
+                                    <div class="card-btn text-end">
+                                        <a href="#" class="btn btn-card-primary">Hire</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="float-container">
+                                <div class="float-start">
+                                    <div class="card-id">
+                                        CAT K6773
+                                    </div>
+                                    <div class="card-elevation">
+                                        Excavator
+                                    </div>
+                                    <div class="card-port">
+                                        <img src="./assets/img/icon/location.png" width="22px" alt=""> Port harcourt
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <div class="card-avail text-end">
+                                        Available
+                                    </div>
+                                    <div class="card-rate">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span><span class="rate-number">4.2</span>
+                                    </div>
+                                    <div class="card-btn text-end">
+                                        <a href="#" class="btn btn-card-primary">Hire</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="float-container">
+                                <div class="float-start">
+                                    <div class="card-id">
+                                        CAT K6773
+                                    </div>
+                                    <div class="card-elevation">
+                                        Excavator
+                                    </div>
+                                    <div class="card-port">
+                                        <img src="./assets/img/icon/location.png" width="22px" alt=""> Port harcourt
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <div class="card-avail text-end">
+                                        Available
+                                    </div>
+                                    <div class="card-rate">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span><span class="rate-number">4.2</span>
+                                    </div>
+                                    <div class="card-btn text-end">
+                                        <a href="#" class="btn btn-card-primary">Hire</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <div class="float-container">
+                                <div class="float-start">
+                                    <div class="card-id">
+                                        CAT K6773
+                                    </div>
+                                    <div class="card-elevation">
+                                        Excavator
+                                    </div>
+                                    <div class="card-port">
+                                        <img src="./assets/img/icon/location.png" width="22px" alt=""> Port harcourt
+                                    </div>
+                                </div>
+                                <div class="float-end">
+                                    <div class="card-avail text-end">
+                                        Available
+                                    </div>
+                                    <div class="card-rate">
+                                        <span><i class="fa fa-star" aria-hidden="true"></i></span><span class="rate-number">4.2</span>
+                                    </div>
+                                    <div class="card-btn text-end">
+                                        <a href="#" class="btn btn-card-primary">Hire</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="footer-settings">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="logo-brand">
+                                <img src="./assets/img/logo/logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="#" class="footer-link">Contact Us</a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="#" class="footer-link">Community</a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="#" class="footer-link">Company</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-copyright">
+                                © Prohaya, Inc. 2022. We love our users!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+    <div class="footer-cover">
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./assets/js/slider.js"></script>
+</body>
+
+</html>
