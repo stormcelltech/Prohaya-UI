@@ -760,8 +760,6 @@ body {
 
 .footer-copyright {
     color: var(--primary-color);
-<<<<<<< HEAD
-=======
 }
 
 /* EQUIPMENT LISTING */
@@ -905,9 +903,9 @@ body {
 .spanner-container-2 img {
     width: 150px;
     z-index: -1;
-    position: absolute;
-    margin-top: -300px;
-    margin-left: 1100px;
+    position: relative;
+    margin-top: -280px;
+    margin-left: 1250px;
     transform: rotate(-90deg);
 }
 .custom-textarea:focus{
@@ -922,30 +920,13 @@ body {
     box-shadow: none;
 
 }
-@media (max-width: 1200px) {
-    .spanner-container-2 img {
-        width: 150px;
-        z-index: -1;
-        position: absolute;
-        
-       right: 0;
-       /*   top: 700;
-       margin-left: 50px; */
-        transform: rotate(-90deg);
-    }
-    .custom-listing-padding{
-        padding: 4px ;
-    }
-    .custom-image-upload{
-        height: 300px;
-    }
-    
-}
 @media (max-width: 992px) {
     .spanner-container-2 img {
         width: 150px;
         z-index: -1;
         position: absolute;
+        
+        /* bottom: 0; */
         
        right: 0;
        /*   top: 700;
@@ -1002,5 +983,4 @@ body {
 @media (max-width: 320px) {
    
     
->>>>>>> f32c9a0e1d9bcc91b9500a5391ccf73f86158171
 }

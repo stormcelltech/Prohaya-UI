@@ -760,8 +760,6 @@ body {
 
 .footer-copyright {
     color: var(--primary-color);
-<<<<<<< HEAD
-=======
 }
 
 /* EQUIPMENT LISTING */
@@ -898,7 +896,7 @@ body {
   .spanner-container-1 img {
     width: 150px;
     z-index: -1;
-    position: relative;
+    position: absolute;
     margin-top: -1300px;
     margin-left: -28px;
 }
@@ -906,8 +904,8 @@ body {
     width: 150px;
     z-index: -1;
     position: absolute;
-    margin-top: -300px;
-    margin-left: 1100px;
+    margin-top: -280px;
+    margin-left: 1250px;
     transform: rotate(-90deg);
 }
 .custom-textarea:focus{
@@ -921,62 +919,6 @@ body {
     background: rgba(228, 219, 196, 0.23) !important;
     box-shadow: none;
 
-}
-@media (max-width: 1200px) {
-    .spanner-container-2 img {
-        width: 150px;
-        z-index: -1;
-        position: absolute;
-        
-       right: 0;
-       /*   top: 700;
-       margin-left: 50px; */
-        transform: rotate(-90deg);
-    }
-    .custom-listing-padding{
-        padding: 4px ;
-    }
-    .custom-image-upload{
-        height: 300px;
-    }
-    
-}
-@media (max-width: 992px) {
-    .spanner-container-2 img {
-        width: 150px;
-        z-index: -1;
-        position: absolute;
-        
-       right: 0;
-       /*   top: 700;
-       margin-left: 50px; */
-        transform: rotate(-90deg);
-    }
-    .custom-listing-padding{
-        padding: 4px ;
-    }
-    .custom-image-upload{
-        height: 300px;
-    }
-    
-}
-
-@media (max-width: 768px) {
-    .spanner-container-2 img {
-        width: 100px;
-        z-index: -1;
-        position: relative;
-        margin-top: -280px;
-        margin-left: 50px;
-        transform: rotate(-90deg);
-    }
-    .custom-listing-padding{
-        padding: 4px ;
-    }
-    .custom-image-upload{
-        height: 300px;
-    }
-    
 }
 @media (max-width: 576px) {
     .custom-listing-padding{
@@ -1002,5 +944,4 @@ body {
 @media (max-width: 320px) {
    
     
->>>>>>> f32c9a0e1d9bcc91b9500a5391ccf73f86158171
 }
