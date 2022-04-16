@@ -7,12 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prohaya</title>
     <script src="./assets/js/jquery-3.6.0.js"></script>
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script src="assets/OwlCarousel/dist/owl.carousel.min.js"></script>
     <script src="./assets/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/custom.css">
     <link rel="stylesheet" href="./assets/css/carousel.css">
     <script src="https://kit.fontawesome.com/151ccf5101.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
 
 
 </head>
@@ -27,7 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav custom-nav-link ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active custom-active" href="shop.html">Shop</a>
@@ -73,7 +78,7 @@
         </div>
         <div class="container">
 
-            <div class="search-container d-md-block d-none">
+            <div class="search-container d-md-block d-none" data-aos="fade-up" data-aos-duration="1500">
                 <div class="input-group custom-select">
 
                     <span class="pt-2">
@@ -135,7 +140,7 @@
     <section class="section-settings-7">
         <div class="container">
             <div class="row my-5">
-                <div class="col-md-3 my-3">
+                <div class="col-md-3 my-3" data-aos="zoom-out-up" data-aos-duration="1000">
                     <div class="card">
                         <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
                         <div class="card-body">
@@ -166,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 my-3">
+                <div class="col-md-3 my-3" data-aos="zoom-out-up" data-aos-duration="1500">
                     <div class="card">
                         <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
                         <div class="card-body">
@@ -197,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 my-3">
+                <div class="col-md-3 my-3" data-aos="zoom-out-up" data-aos-duration="2000">
                     <div class="card">
                         <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
                         <div class="card-body">
@@ -228,7 +233,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 my-3">
+                <div class="col-md-3 my-3" data-aos="zoom-out-up" data-aos-duration="2500">
                     <div class="card">
                         <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
                         <div class="card-body">
@@ -260,7 +265,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row my-5">
+            <div class="row my-5" data-aos="fade-up" data-aos-duration="3000">
                 <div class="col-md-3 my-3">
                     <div class="card">
                         <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
@@ -394,7 +399,7 @@
     <section class="section-settings-6">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="1500">
                     <h1 class="custom-heading-2 text-dark">
                         Do you have an equipment you want to list ?
                     </h1>
@@ -404,7 +409,7 @@
                     </p>
                     <a href="#" class="btn custom-plain-primary-btn text-center text-lg-left">Click Here to List</a>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
                     <div class="img-container">
                         <img src="assets/img/background/img-component.png" class="d-md-block d-none" alt="">
                     </div>
@@ -414,73 +419,98 @@
                 </div>
             </div>
         </div>
-
-
     </section>
 
 
 
-    <section class="section-settings-3">
+      <!-- Owlcarousel slider  -->
+      <section class="section-settings-3">
         <div class="container">
-            <h1 class="custom-heading-3 mt-5 text-center">
+            <h1 class="custom-heading-3 mt-5 text-center" data-aos="fade-down" data-aos-duration="1500">
                 What do you need ?
             </h1>
         </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card" style="width: 20rem;">
-                        <img src="./assets/img/background/unsplash_jibUsRaauLY.png" class="card-img-top p-3" alt="...">
-                        <div class="card-body">
-                            <div class="card-title custom-card-title-2">
-                                Excavators
-                            </div>
-                            <div class="card-text font-weight-bold">
-                                Available
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 20rem;">
-                        <img src="./assets/img/background/unsplash_AI2YT94sSeA@2x.png" class="card-img-top p-3" alt="...">
-                        <div class="card-body">
-                            <div class="card-title custom-card-title-2">
-                                Bulldozers
-                            </div>
-                            <div class="card-text font-weight-bold">
-                                Available
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card" style="width: 20rem;">
-                        <img src="./assets/img/background/unsplash_9qfH_EIzH6w.png" class="card-img-top p-3" alt="...">
-                        <div class="card-body">
-                            <div class="card-title custom-card-title-2">
-                                Graders
-                            </div>
-                            <div class="card-text font-weight-bold">
-                                Available
-                            </div>
-                        </div>
-                    </div>
+        <div class="container" data-aos="fade-left" data-aos-duration="2000">
+            <div class="owl-carousel owl-theme">
+                <div class="card ms-3 me-3 owl-card shadow">
+                <img src="./assets/img/background/unsplash_jibUsRaauLY.png" width="50px" class="p-3" alt="...">
+                <div class="card-title custom-card-title-2 px-3">
+                    Excavators
+                </div>  
+                <div class="card-text font-weight-bold px-3 pb-3">
+                    Available
                 </div>
             </div>
+                <div class="card ms-3 me-3 owl-card shadow">
+                <img src="./assets/img/background/unsplash_AI2YT94sSeA@2x.png" width="50" class="card-img-top p-3" alt="...">
+                <div class="card-title custom-card-title-2 px-3">
+                    Bulldozers
+                </div>    
+                <div class="card-text font-weight-bold px-3 pb-3">
+                    Available
+                </div>
+            </div>
+                <div class="card ms-3 me-3 owl-card shadow">
+                <img src="./assets/img/background/unsplash_jibUsRaauLY.png" width="50" class="card-img-top p-3" alt="...">
+                <div class="card-title custom-card-title-2 px-3">
+                    Graders
+                </div>  
+                <div class="card-text font-weight-bold px-3 pb-3">
+                    Available
+                </div>
+            </div>
+                <div class="card ms-3 me-3 owl-card shadow">
+                    <img src="./assets/img/background/unsplash_9qfH_EIzH6w.png" width="50" class="card-img-top p-3" alt="...">
+                    <div class="card-title custom-card-title-2 px-3">
+                        Excavators
+                    </div>
+                    <div class="card-text font-weight-bold px-3 pb-3">
+                        Available
+                    </div>
+                </div>
 
-
-
+            </div>
         </div>
+
+
+
+        <script>
+           $(document).ready(function(){
+               $(".owl-carousel").owlCarousel({
+                   nav:true,
+                   navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
+                //    slideBy: 2,
+                   autoplay:true,
+                   dots:true,
+                   loop:true,
+                   responsive:{
+                       0: {
+                           items:1,
+                           nav:false,
+                       },
+                       425: {
+                           items: 2,
+                           nav:false,
+                       },
+                       758: {
+                           items: 3,
+                       }
+                   }
+
+               });
+           });
+        </script>
     </section>
+    <!-- Owlcarousel slider end -->
+
+   
 
     <section>
         <div class="container">
             <h1 class="recentOrder">Recent Orders</h1>
             <div class="row my-5">
                 <div class="col-md-3 my-3">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-duration="1500">
                         <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <div class="float-container">
@@ -511,7 +541,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-duration="2000">
                         <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <div class="float-container">
@@ -542,7 +572,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-duration="2500">
                         <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <div class="float-container">
@@ -573,7 +603,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 my-3">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up" data-aos-duration="3000">
                         <img src="./assets/img/card img/unsplash_jibUsRaauLY.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <div class="float-container">
@@ -625,13 +655,13 @@
                             <div class="col-md-12">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <a href="#" class="footer-link">Contact Us</a>
+                                        <a href="#" class="footer-link text-decoration-none">Contact Us</a>
                                     </div>
                                     <div class="col-md-4">
-                                        <a href="#" class="footer-link">Community</a>
+                                        <a href="#" class="footer-link text-decoration-none">Community</a>
                                     </div>
                                     <div class="col-md-4">
-                                        <a href="#" class="footer-link">Company</a>
+                                        <a href="#" class="footer-link text-decoration-none">Company</a>
                                     </div>
                                 </div>
                             </div>
@@ -660,7 +690,12 @@
 
 
 
-
+    <script>
+        AOS.init({
+            once:true,
+            animatedClassName: "aos-animate",
+        });
+      </script>
     <script src="./assets/js/slider.js"></script>
 </body>
 
