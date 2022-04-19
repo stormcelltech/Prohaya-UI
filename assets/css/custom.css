@@ -760,6 +760,7 @@ body {
 
 .footer-copyright {
     color: var(--primary-color);
+
 }
 
 /* EQUIPMENT LISTING */
@@ -994,16 +995,6 @@ body {
     }
     
 }
-@media (max-width: 360px) {
-   
-}
-@media (max-width: 320px) {
-   
-    
-}
-
-
-
 
 /*        MY EQUIPMENT PAGE      */
 .custom-equipment-listing{
@@ -1013,10 +1004,6 @@ body {
     font-size: 24px;
     line-height: 28px;
 }
-/* .custom-equipment-btn{
-    padding: 8px !important;
-    width: 300px !important;
-} */
 .custom-equipment-padding{
     padding: 3rem 0rem 3rem 0rem ;
 }
@@ -1162,25 +1149,18 @@ body {
     .custom-btn-click{
         text-align: right !important;
     }
-     .custom-hired-div{
-      text-align: left;
-     }   
-  
-     /* .custom-john-duration{
-         text-align: center;
-         font-size: 13px !important;
-     }
-     .custom-hirer-duration{
-         text-align: center; */
-     }
-     .custom-overdue-btn{
-         text-align: right !important;
-     }
-     .custom-overdue-div{
-         margin-top: 30px;
-     }
- }
+    .custom-hired-div{
+    text-align: left;
+    }
 
+
+    .custom-overdue-btn{
+        text-align: right !important;
+    }
+    .custom-overdue-div{
+        margin-top: 30px;
+    }
+}
 
 @media (max-width: 768px) {
     .custom-equipment-listing{
