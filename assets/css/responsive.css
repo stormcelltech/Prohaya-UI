@@ -1,5 +1,87 @@
 
-
+    @media (max-width: 575.98px) {
+        .custom-heading {
+            margin-top: -50px;
+            font-size: 35px;
+            line-height: 35px;
+            letter-spacing: -0.5%;
+        }
+        .custom-btn-align {
+            text-align: center!important;
+        }
+        .header-img img {
+            width: 27.5em;
+            position: relative;
+            margin-top: -290px;
+            margin-left: -80px;
+        }
+        .custom-box div {
+            width: 200px;
+            height: 250px;
+            background: #C9B88A;
+            z-index: -1;
+            margin: 0 auto;
+            border-radius: 8px;
+            margin-bottom: -10px;
+            position: relative;
+        }
+        .custom-heading-margin-sm {
+            margin-top: 100px;
+            margin-bottom: -120px!important;
+        }
+        /* custom circle headline 1*/
+        .circle-quote-container {
+            margin: 25px 0;
+        }
+        .circle-quote span:nth-child(1) {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: #CAE4FF;
+        }
+        .circle-quote span:nth-child(2) {
+            width: 330px;
+            height: 10px;
+            /* border-radius: 50%; */
+            background: #E4DBC4;
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+        .circle-quote-img {
+            display: flex;
+            justify-content: center;
+        }
+        .circle-quote-img img {
+            display: block;
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .custom-card-title,
+        .custom-card-text {
+            text-align: center;
+        }
+        /* custom circle headline end 1 */
+        .spanner-container img {
+            width: 100px;
+            z-index: -1;
+            position: relative;
+            margin-top: -280px;
+            margin-left: -12px;
+        }
+    }
+    /* // Small devices (landscape phones, less than 768px) */
+    
+    @media (max-width: 767.98px) {}
+    /* // Medium devices (tablets, less than 992px) */
+    
+    @media (max-width: 991.98px) {}
+    /* // Large devices (desktops, less than 1200px) */
+    
+    @media (max-width: 1199.98px) {}
+    /* // X-Large devices (large desktops, less than 1400px) */
+    
+    @media (max-width: 1399.98px) {}
 
 
 
