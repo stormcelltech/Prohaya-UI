@@ -8,6 +8,9 @@
     --primary-color: #937114;
     --secondary-color: #2B96FF;
     --color-gray: #35524A;
+    --color-gray2: #CCD3D1;
+    --nunito-regular: "Nunito Sans Regular";
+    --nunito-bold: "Nunito Sans Bold";
 }
 
 
@@ -768,4 +771,235 @@ body {
 
 .footer-copyright {
     color: var(--primary-color);
+}
+
+.section-settings-7{
+    padding: 100px 0;
+}
+
+.user-login-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.active-user{
+    font-family: "Raleway Bold";
+    padding-right: 10px;
+}
+
+.order-custom-bg{
+    background: #E4DBC4;
+}
+
+.invoice-heading{
+    font-family: "Raleway Bold";
+    color: var(--color-gray);
+    font-size: 24px;
+}
+
+.user-invoice-details-container .username{
+    font-family: "Raleway Bold";
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.user-invoice-details-container .usericon img{
+    width: 40px;
+}
+
+.user-invoice-display{
+    background: url(../img/background/card-design.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+.user-invoice-display .invoice-number{
+    color: var(--color-gray2);
+    font-family:var(--nunito-regular);
+}
+.user-invoice-display .invoice-no{
+    color: #fff;
+    font-family: var(--nunito-bold);
+}
+.user-invoice-display .issued-date span{
+    color: var(--color-gray2);
+    font-family:var(--nunito-regular);
+    margin-right: 5px;
+}
+
+.user-invoice-display .issued-date{
+    color: #fff;
+    font-family: var(--nunito-bold);
+}
+
+.user-invoice-display .returned-date span{
+    color: var(--color-gray2);
+    font-family: var(--nunito-regular);
+    margin-right: 5px;
+}
+
+.user-invoice-display .returned-date{
+    color: #fff;
+    font-family: var(--nunito-bold);
+}
+
+.user-invoice-display .invoice-bill{
+    color: var(--color-gray2);
+    font-family:var(--nunito-regular);
+}
+
+.user-invoice-display .invoice-name{
+    color: #fff;
+    font-family: var(--nunito-bold);
+}
+
+.user-invoice-display .invoice-name{
+    color: #fff;
+    font-family: var(--nunito-bold);
+}
+.user-invoice-display .invoice-address{
+    color: #fff;
+    font-family: var(--nunito-regular);
+    font-weight: lighter;
+}
+
+.custom-invoice-card{
+    border-radius: 4px;
+    border: 0!important;
+}
+
+.custom-invoice-table thead tr{
+    border-top: solid 1px #ddd!important;
+}
+
+.order-details{
+    font-family: "Raleway Bold";
+    color: var(--primary-color);
+}
+
+.invoice-badge{
+    margin: 20px 0!important;
+}
+
+
+tr.invoice-badge{
+  margin: 20px 0;
+}
+
+.add-icon i{
+    font-size: 25px;
+    color: #2B96FF;
+}
+
+
+.invoice-badge .price-1{
+    border: solid 1px #cecbcb;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: "Raleway Bold";
+}
+
+.invoice-badge .price-2{
+    border: solid 1px #cecbcb;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-family: "Raleway Bold";
+}
+
+.invoice-badge .price-3{
+    border: solid 1px #cecbcb;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-family: "Raleway Bold";
+}
+
+.invoice-badge .price-4{
+    border: solid 1px #cecbcb;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-family: "Raleway Bold";
+}
+
+.invoice-badge .price-5{
+    border: solid 1px #cecbcb;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-family: "Raleway Bold";
+}
+
+.payment-details{
+    color: var(--primary-color);
+    font-family: "Raleway Bold";
+}
+
+.invoice-amount{
+    font-family: "Raleway Bold";
+}
+
+.Account-name span, .Account-number span, .Bank-name span{
+    font-family: "Raleway Bold";
+    padding: 0 10px;
+}
+
+.btn-confirm{
+    background: var(--secondary-color);
+    padding: 12px 70px;
+    color: #fff;
+    border-radius: 3px;
+    transition: all ease-in-out .5s;
+}
+
+.btn-confirm:hover{
+    background: #0b62ba;
+    color: #fff;
+}
+
+.payment-instruction{
+    color: var(--primary-color);
+    font-family: var(--nunito-bold);
+}
+
+.hire-img-details-container img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.hire-details div{
+    font-size: 15px;
+    font-family: "Raleway Bold";
+}
+
+.hire-details p{
+    font-size: 15px;
+}
+.hire-title{
+    font-family: "Raleway Bold";
+}
+.hire-address{
+    font-family: var(--nunito-bold);
+    font-size: 15px;
+}
+
+.hire-btn{
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 35px;
+    transition: all ease-in-out .5s;
+}
+
+.hire-btn:hover{
+    background: #785d11;
+    color: #fff;
 }
