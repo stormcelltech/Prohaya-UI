@@ -1111,3 +1111,482 @@ tr.invoice-badge{
    /* width: 60%; */
    top:80% ;
 }
+/* EQUIPMENT LISTING */
+.custom_john{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.48px;
+    letter-spacing: 00.15%;
+    margin: 0px 28px;
+}
+.custom_listing{
+    font-family: 'Raleway' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 28px !important;
+    color: #000000 !important;
+    margin: 15px 0px ;
+   
+   
+}
+.custom-listing-padding {
+    padding: 3rem 7rem 3rem 15rem ;
+}
+.custom_hr{
+    width: 2px;
+    height: 100%;
+    background: #E4DBC4;
+    margin: auto;
+
+}
+.custom_photo_section{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.005em;
+    color: #000000;
+   
+}
+.custom-labels{
+    /* font-size: 15px;
+    font-weight: 700; */
+    color: #000000;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.005em;
+    
+}
+.custom-input{
+    border-radius: 12px;
+    border: 1px solid #937114;
+    background: rgba(228, 219, 196, 0.23);
+    margin: 5px 0px 30px 0px;
+    padding: 10px;
+}
+.custom-input:focus{
+    border: 1px solid #937114 !important;
+    background: rgba(228, 219, 196, 0.23) !important;
+    box-shadow: none;
+
+}
+
+.custom-row-padding{
+    margin-top: 15px;
+}
+.custom-textarea{
+    border-radius: 13px;
+    border: 1px solid #937114;
+    background: rgba(228, 219, 196, 0.23);
+}
+.custom-select{
+    border-radius: 13px !important;
+    border: 1px solid #937114;
+    background: rgba(228, 219, 196, 0.23);
+}
+.custom-upload{
+    /* font-size: 13px;
+    margin: 10px 0px;
+    color: #000000; */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.005em;
+    color: #687D77;
+    margin: 10px 0px;
+}
+.custom-image-upload {
+    display: flex;
+    justify-content: center;
+    background: rgba(228, 219, 196, 0.3);
+    height: 400px;
+}
+.custom-image-upload  img{
+    margin: auto;
+}
+.custom-thumbnail{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 60px !important;
+  }
+  .custom-thumb-section{
+      margin: 20px 0px;
+  }
+  .custom-check-label{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.0025em;
+    color: #000000;
+  }
+  .custom-margin{
+      margin: 10px 0px;
+  }
+  .custom-button{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 0px 0px;
+  }
+  .custom-button button{
+      padding: 10px;
+      width: 100%;
+  }
+  .spanner-container-1 img {
+    width: 150px;
+    z-index: -1;
+    position: relative;
+    margin-top: -1300px;
+    margin-left: -28px;
+}
+.spanner-container-2 img {
+    width: 150px;
+    z-index: -1;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 1100px;
+    transform: rotate(-90deg);
+}
+.custom-textarea:focus{
+    border: 1px solid #937114 !important;
+    background: rgba(228, 219, 196, 0.23) !important;
+    box-shadow: none;
+
+}
+.custom-select:focus{
+    border: 1px solid #937114 !important;
+    background: rgba(228, 219, 196, 0.23) !important;
+    box-shadow: none;
+
+}
+@media (max-width: 1200px) {
+    .spanner-container-2 img {
+        width: 150px;
+        z-index: -1;
+        position: absolute;
+        
+       right: 0;
+       /*   top: 700;
+       margin-left: 50px; */
+        transform: rotate(-90deg);
+    }
+    .custom-listing-padding{
+        padding: 4px ;
+    }
+    .custom-image-upload{
+        height: 300px;
+    }
+    
+}
+@media (max-width: 992px) {
+    .spanner-container-2 img {
+        width: 150px;
+        z-index: -1;
+        position: absolute;
+        
+       right: 0;
+       /*   top: 700;
+       margin-left: 50px; */
+        transform: rotate(-90deg);
+    }
+    .custom-listing-padding{
+        padding: 4px ;
+    }
+    .custom-image-upload{
+        height: 300px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .spanner-container-2 img {
+        width: 100px;
+        z-index: -1;
+        position: relative;
+        margin-top: -280px;
+        margin-left: 50px;
+        transform: rotate(-90deg);
+    }
+    .custom-listing-padding{
+        padding: 4px ;
+    }
+    .custom-image-upload{
+        height: 300px;
+    }
+    
+}
+@media (max-width: 576px) {
+    .custom-listing-padding{
+        padding: 4px ;
+    }
+    .custom-image-upload{
+        height: 200px;
+    }
+    
+}
+@media (max-width: 414px) {
+    .custom-listing-padding{
+        padding: 4px ;
+    }
+    .custom-image-upload{
+        height: 200px;
+    }
+    
+}
+
+/*        MY EQUIPMENT PAGE      */
+.custom-equipment-listing{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.custom-equipment-padding{
+    padding: 3rem 0rem 3rem 0rem ;
+}
+.custom-hired-text{
+    font-family: "Nunito Sans Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.005em;
+   
+}
+.custom-cat-text{
+    font-family: "Nunito Sans Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.9663px;
+    line-height: 30px;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+
+.custom-name-text{
+    font-family: "Nunito Sans Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.7978px;
+    line-height: 23px;
+    letter-spacing: 0.004em;
+    color: #9AA9A5;
+    
+}
+
+
+.custom-overdue-btn{
+    text-align: right !important;
+}
+
+.custom-duration-align{
+    text-align: right !important; 
+    font-size: 20px;
+}
+
+
+.custom-hirer-duration{
+    font-family: "Nunito Sans Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.004em;
+    color: #9AA9A5;
+    text-align: left; 
+}
+.custom-john-duration{
+    font-family: "Nunito Sans Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.0025em;
+    color: #000000;
+    text-align: left;
+}
+.custom-john{
+    font-family: "Nunito Sans Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.0025em;
+    color: #000000;
+    text-align: left;
+    
+}
+.custom-hirer{
+    font-family: "Nunito Sans Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.004em;
+    color: #9AA9A5;
+    text-align: left;
+    
+}
+.custom-btn-click{
+    text-align: right;
+}
+
+.custom-hired-span{
+    font-family: "Nunito Sans Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+
+.custom-equipment-btn:focus{
+    box-shadow: none !important;
+}
+.custom-over-btn:focus{
+    box-shadow: none !important;
+}
+.custom-equipment-btn:hover{
+    background-color: #937114;
+    border: none;
+}
+.custom-over-btn:hover{
+    background-color: #937114;
+    border: none;
+}
+
+.custom-shadow-div{
+    box-shadow: 5px 5px 5px 5px #7a7a7a20;
+}
+
+
+.spanner-container-3 img {
+    width: 150px;
+    z-index: -1;
+    position: relative;
+    margin-top: -1800px;
+    margin-left: -28px;
+}
+.spanner-container-4 img {
+    width: 150px;
+    z-index: -1;
+    position: absolute;
+    margin-top: -100px;
+    right: 5px;
+    transform: rotate(-90deg);
+}
+
+
+@media (max-width: 992px) {
+    .custom-equipment-listing{
+        text-align: left !important;
+        font-size: 20px;
+    }
+    .custom-btn-click{
+        text-align: right !important;
+    }
+    .custom-hired-div{
+    text-align: left;
+    }
+
+
+    .custom-overdue-btn{
+        text-align: right !important;
+    }
+    .custom-overdue-div{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-equipment-listing{
+        text-align: left !important;
+        font-size: 20px;
+    }
+    .custom-btn-click{
+        text-align: left !important;
+    }
+     .custom-hired-div{
+      text-align: left;
+     }   
+  
+     .custom-john-duration{
+         text-align: center;
+         font-size: 13px !important;
+     }
+     .custom-hirer-duration{
+         text-align: center;
+     }
+     .custom-overdue-btn{
+         text-align: right !important;
+     }
+     .custom-overdue-div{
+         margin-top: 30px;
+     }
+ }
+
+
+@media (max-width: 576px) {
+    .custom-equipment-listing{
+        text-align: center !important;
+    }
+    .custom-btn-click{
+        text-align: center !important;
+    }
+     .custom-hired-div{
+      text-align: center;
+      margin: 10px 0px 0px 0px;
+     }   
+  
+     .custom-john-duration{
+         text-align: center;
+         font-size: 13px !important;
+     }
+     .custom-hirer-duration{
+         text-align: center;
+     }
+     .custom-overdue-btn{
+         text-align: left !important;
+     }
+     .custom-equipment-padding {
+        padding: 2rem 0rem 2rem 0rem;
+    }
+ }
+
+@media (max-width: 414px) {
+   .custom-equipment-listing{
+       text-align: center !important;
+   }
+   .custom-btn-click{
+       text-align: center !important;
+   }
+    .custom-hired-div{
+     text-align: center;
+    }   
+ 
+    .custom-john-duration{
+        text-align: center;
+        font-size: 13px !important;
+    }
+    .custom-hirer-duration{
+        text-align: center;
+    }
+    .custom-overdue-btn{
+        text-align: left !important;
+    }
+    .custom-equipment-padding {
+        padding: 2rem 0rem 2rem 0rem;
+    }
+}
