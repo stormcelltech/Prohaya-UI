@@ -138,7 +138,8 @@ body {
 /* HEADER SETTINGS */
 
 .custom-header-padding {
-    padding: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
 }
 
 .header-img img {
@@ -232,7 +233,10 @@ body {
     border-radius: 6px!important;
     background: #fff;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.505);
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .spanner-container img {
@@ -679,6 +683,7 @@ body {
 .section-settings-6 {
     padding: 100px 0;
     background: #FFF7E4;
+    margin-top: 100px;
 }
 
 .heading-paragraph {
@@ -699,9 +704,10 @@ body {
 }
 
 .img-container img {
-    width: 700px;
+    width: 40rem;
     position: absolute;
     margin-top: -160px;
+ 
 }
 
 .img-2 img {
@@ -713,7 +719,7 @@ body {
     background: #E4DBC4;
     width: 100%;
     height: 3px;
-    margin: 110px 0;
+    margin: 5px 0;
 }
 
 .recentOrder {
@@ -1111,3 +1117,38 @@ tr.invoice-badge{
    /* width: 60%; */
    top:80% ;
 }
+
+
+.hiring-bg{
+    background: rgba(0, 0, 0, 0.505);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    margin-bottom: -370px;
+    z-index: 1;
+}
+.hiring-bg h1{
+    color: #fff;
+text-align: center;
+}
+
+.hiring-bg p{
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+
+
+
+
+.custom-header-img2 img{
+    width: 500px!important;
+}
+
+.margin-remove{
+    margin-top: -100px;
+}
+
