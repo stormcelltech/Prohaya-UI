@@ -149,16 +149,15 @@ body {
     margin-left: -40px;
 }
 
-.custom-header-img2 img{
+.custom-header-img2 img {
     width: 350px;
     margin-bottom: 50px;
-    
 }
 
-.custom-header-img2{
+.custom-header-img2 {
     margin: 0 auto;
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 .custom-heading {
@@ -639,7 +638,7 @@ body {
 
 .card-id {
     font-family: "Raleway Bold";
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .card-avail {
@@ -649,7 +648,7 @@ body {
 }
 
 .card-elevation {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .card-rate i,
@@ -660,12 +659,13 @@ body {
 }
 
 .card-rate i {
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 .card-port {
     font-family: "Raleway Bold";
     margin-top: 20px;
+    font-size: 12px;
 }
 
 .btn-card-primary {
@@ -707,13 +707,11 @@ body {
     width: 40rem;
     position: absolute;
     margin-top: -160px;
- 
 }
 
 .img-2 img {
     margin: 0 auto;
 }
-
 
 .line-divider div {
     background: #E4DBC4;
@@ -740,7 +738,6 @@ body {
     border-radius: 0!important;
     border: solid 2px var(--primary-color);
 }
-
 
 .custom-brown-btn {
     background: var(--primary-color)!important;
@@ -777,47 +774,45 @@ body {
 
 .footer-copyright {
     color: var(--primary-color);
-
 }
 
-.section-settings-7{
+.section-settings-7 {
     padding: 100px 0;
 }
 
-.user-login-img img{
+.user-login-img img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
-
 }
 
-.active-user{
+.active-user {
     font-family: "Raleway Bold";
     padding-right: 10px;
 }
 
-.order-custom-bg{
+.order-custom-bg {
     background: #E4DBC4;
 }
 
-.invoice-heading{
+.invoice-heading {
     font-family: "Raleway Bold";
     color: var(--color-gray);
     font-size: 24px;
 }
 
-.user-invoice-details-container .username{
+.user-invoice-details-container .username {
     font-family: "Raleway Bold";
     font-weight: 700;
     font-size: 17px;
 }
 
-.user-invoice-details-container .usericon img{
+.user-invoice-details-container .usericon img {
     width: 40px;
 }
 
-.user-invoice-display{
+.user-invoice-display {
     background: url(../img/background/card-design.png);
     background-size: cover;
     background-position: center center;
@@ -826,138 +821,140 @@ body {
     height: 250px;
     margin: 0 auto;
     border-radius: 10px;
-
 }
 
-.user-invoice-display .invoice-number{
+.user-invoice-display .invoice-number {
     color: var(--color-gray2);
-    font-family:var(--nunito-regular);
-}
-.user-invoice-display .invoice-no{
-    color: #fff;
-    font-family: var(--nunito-bold);
-}
-.user-invoice-display .issued-date span{
-    color: var(--color-gray2);
-    font-family:var(--nunito-regular);
-    margin-right: 5px;
+    font-family: var(--nunito-regular);
 }
 
-.user-invoice-display .issued-date{
+.user-invoice-display .invoice-no {
     color: #fff;
     font-family: var(--nunito-bold);
 }
 
-.user-invoice-display .returned-date span{
+.user-invoice-display .issued-date span {
     color: var(--color-gray2);
     font-family: var(--nunito-regular);
     margin-right: 5px;
 }
 
-.user-invoice-display .returned-date{
+.user-invoice-display .issued-date {
     color: #fff;
     font-family: var(--nunito-bold);
 }
 
-.user-invoice-display .invoice-bill{
+.user-invoice-display .returned-date span {
     color: var(--color-gray2);
-    font-family:var(--nunito-regular);
+    font-family: var(--nunito-regular);
+    margin-right: 5px;
 }
 
-.user-invoice-display .invoice-name{
+.user-invoice-display .returned-date {
     color: #fff;
     font-family: var(--nunito-bold);
 }
 
-.user-invoice-display .invoice-name{
+.user-invoice-display .invoice-bill {
+    color: var(--color-gray2);
+    font-family: var(--nunito-regular);
+}
+
+.user-invoice-display .invoice-name {
     color: #fff;
     font-family: var(--nunito-bold);
 }
-.user-invoice-display .invoice-address{
+
+.user-invoice-display .invoice-name {
+    color: #fff;
+    font-family: var(--nunito-bold);
+}
+
+.user-invoice-display .invoice-address {
     color: #fff;
     font-family: var(--nunito-regular);
     font-weight: lighter;
 }
 
-.custom-invoice-card{
+.custom-invoice-card {
     border-radius: 4px;
     border: 0!important;
 }
 
-.custom-invoice-table thead tr{
+.custom-invoice-table thead tr {
     border-top: solid 1px #ddd!important;
 }
 
-.order-details{
+.order-details {
     font-family: "Raleway Bold";
     color: var(--primary-color);
 }
 
-.invoice-badge{
+.invoice-badge {
     margin: 20px 0!important;
 }
 
-
-tr.invoice-badge{
-  margin: 20px 0;
+tr.invoice-badge {
+    margin: 20px 0;
 }
 
-.add-icon i{
+.add-icon i {
     font-size: 25px;
     color: #2B96FF;
 }
 
-
-.invoice-badge .price-1{
+.invoice-badge .price-1 {
     border: solid 1px #cecbcb;
     padding: 10px 20px;
     border-radius: 8px;
     font-family: "Raleway Bold";
 }
 
-.invoice-badge .price-2{
+.invoice-badge .price-2 {
     border: solid 1px #cecbcb;
     padding: 10px 15px;
     border-radius: 8px;
     font-family: "Raleway Bold";
 }
 
-.invoice-badge .price-3{
+.invoice-badge .price-3 {
     border: solid 1px #cecbcb;
     padding: 10px 15px;
     border-radius: 8px;
     font-family: "Raleway Bold";
 }
 
-.invoice-badge .price-4{
+.invoice-badge .price-4 {
     border: solid 1px #cecbcb;
     padding: 10px 15px;
     border-radius: 8px;
     font-family: "Raleway Bold";
 }
 
-.invoice-badge .price-5{
+.invoice-badge .price-5 {
     border: solid 1px #cecbcb;
     padding: 10px 15px;
     border-radius: 8px;
     font-family: "Raleway Bold";
 }
 
-.payment-details{
+.payment-details {
     color: var(--primary-color);
     font-family: "Raleway Bold";
 }
 
-.invoice-amount{
+.invoice-amount {
     font-family: "Raleway Bold";
 }
 
-.Account-name span, .Account-number span, .Bank-name span{
+.Account-name span,
+.Account-number span,
+.Bank-name span {
     font-family: "Raleway Bold";
     padding: 0 10px;
 }
 
-.btn-confirm{
+.btn-confirm {
     background: var(--secondary-color);
     padding: 12px 70px;
     color: #fff;
@@ -965,40 +962,41 @@ tr.invoice-badge{
     transition: all ease-in-out .5s;
 }
 
-.btn-confirm:hover{
+.btn-confirm:hover {
     background: #0b62ba;
     color: #fff;
 }
 
-.payment-instruction{
+.payment-instruction {
     color: var(--primary-color);
     font-family: var(--nunito-bold);
 }
 
-.hire-img-details-container img{
+.hire-img-details-container img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-
 }
 
-.hire-details div{
+.hire-details div {
     font-size: 15px;
     font-family: "Raleway Bold";
 }
 
-.hire-details p{
+.hire-details p {
     font-size: 15px;
 }
-.hire-title{
+
+.hire-title {
     font-family: "Raleway Bold";
 }
-.hire-address{
+
+.hire-address {
     font-family: var(--nunito-bold);
     font-size: 15px;
 }
 
-.hire-btn{
+.hire-btn {
     background: var(--primary-color);
     color: #fff;
     border-radius: 8px;
@@ -1006,103 +1004,98 @@ tr.invoice-badge{
     transition: all ease-in-out .5s;
 }
 
-.hire-btn:hover{
+.hire-btn:hover {
     background: #785d11;
     color: #fff;
 }
 
 
-
-
 /**equipment details body design**/
 
-.equip-detail .spann img{ 
+.equip-detail .spann img {
     /* width: 80%;   */
 }
-.equip-detail .flexend{
+
+.equip-detail .flexend {
     display: flex;
     justify-content: center;
     justify-content: space-around;
 }
 
-.equip-detail h4{
+.equip-detail h4 {
     font-family: "Raleway Bold";
 }
 
-
-.equip-detail .direct{
+.equip-detail .direct {
     display: flex;
     justify-content: center;
     justify-content: space-between;
 }
 
-.equip-detail .direct .mybtn{
-  background-color: #937114;
-  border-style: none;
-  padding: 7px;
-  border-radius: 3px;
+.equip-detail .direct .mybtn {
+    background-color: #937114;
+    border-style: none;
+    padding: 7px;
+    border-radius: 3px;
 }
 
- .equipmain .dots{
-    margin-left:33%;
-    
-} 
+.equipmain .dots {
+    margin-left: 33%;
+}
 
-.equipmain .dots div{
+.equipmain .dots div {
     height: 4px;
     width: 9px;
     background-color: rgb(59, 56, 56);
     top: -70px;
 }
 
-.row .flex{
+.row .flex {
     background: url(./);
 }
 
-.flex .border{
+.flex .border {
     border-radius: 4px;
     padding: 9px;
     margin-bottom: 12px;
 }
-.flex .left{
+
+.flex .left {
     margin: 4spx;
     border: 1px solid;
     border-top: none;
     border-left: none;
     border-bottom: none;
-    height: 700px; 
-    
-    
+    height: 700px;
 }
 
-.text-area .mybtn{
+.text-area .mybtn {
     text-align: center;
     color: #fff;
     background-color: rgb(0, 140, 255);
     padding: 6px 14px 6px 14px;
 }
 
-.right .flex-item{
+.right .flex-item {
     display: flex;
     justify-content: space-between;
 }
 
-.star-area{
+.star-area {
     display: flex;
     justify-content: space-between;
 }
 
-.star-area .rate i{
+.star-area .rate i {
     font-size: 20px;
-    
 }
 
-.equip-detail-form input{
+.equip-detail-form input {
     width: 100%;
     height: 120px;
 }
 
-.mybttn{
+.mybttn {
     margin-left: 68%;
     padding: 10px 44px;
     text-decoration: none;
@@ -1111,15 +1104,13 @@ tr.invoice-badge{
     background-color: #2B96FF;
 }
 
-
-.equip-detail .spa img{
-    position: relative; 
-   /* width: 60%; */
-   top:80% ;
+.equip-detail .spa img {
+    position: relative;
+    /* width: 60%; */
+    top: 80%;
 }
 
-
-.hiring-bg{
+.hiring-bg {
     background: rgba(0, 0, 0, 0.505);
     width: 100%;
     height: 100%;
@@ -1130,25 +1121,27 @@ tr.invoice-badge{
     margin-bottom: -370px;
     z-index: 1;
 }
-.hiring-bg h1{
+
+.hiring-bg h1 {
     color: #fff;
-text-align: center;
+    text-align: center;
 }
 
-.hiring-bg p{
+.hiring-bg p {
     color: #fff;
     text-align: center;
     display: none;
 }
 
-
-
-
-.custom-header-img2 img{
+.custom-header-img2 img {
     width: 500px!important;
 }
 
-.margin-remove{
+.margin-remove {
     margin-top: -100px;
 }
 
+.hire-img img {
+    width: 100%;
+    height: 200px;
+}
