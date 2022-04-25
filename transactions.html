@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prohaya</title>
+    <script src="./assets/js/jquery-3.6.0.js"></script>
+    <script src="./assets/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <script src="https://kit.fontawesome.com/151ccf5101.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+
+
+</head>
+<style>
+
+   .top-bg{
+    color:white ;
+    background-image: url(./assets/img/background/card-design.png);
+    background-size: cover;
+    margin-left: 9%;
+    margin-right: 9%;
+
+}
+.mytop{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+    .top-bg p{
+    font-size: 14px;
+} 
+
+.myk input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('./assets/img/background/search.webp');
+  background-size: 28px;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+select {
+  width: 90%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.myk .flexx form{
+    display: flex;
+}
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light custom-navWidth bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo/logo.png" class="logo" alt=""></a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav custom-nav-link ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active custom-active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Transaction</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="custom-nav-btn-container">
+                    <!-- <a href="login.html" class="signin-link">Sign in</a> -->
+                    <strong class="custom_john">John Akanson</strong>
+                    <!-- <a href="signup.html" class="custom-btn-primary">Sign Up</a> -->
+                    <img src="./assets/img/card img/Ellipse 14.png" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+    <header class="custom-equipment-padding ">
+        <div class="container justify-content-center ">
+            <div class="top-bg text-white">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 m-auto">
+                        <div class="row justify-content-center my-2 ">
+                            <div class=" col-sm-12 col-md-6">
+                                <p>ACCOUNT</p>
+                                <h1 class="custom-equipment-listing pl-3 text-white">John Aloma</h1>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <p>TRANSACTIONS</p>
+                                <h3 class="custom-equipment-listing pl-3 text-white">200</h3>
+                                <p>4517 Washington Ave.<br>Manchester,Kentucky 39495</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="row py-3 mytop" >
+                    <div class="col-sm-12 col-md-6">
+                        <span class="custom-hired-span"><h5>Current Orders</h5></span>
+                    </div>
+                    <div class="col-sm-12 col-md-6 myk">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <form>
+                                    <input type="text" name="search" placeholder="Search..">
+                                </form>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <form>
+                                    <select id="country" name="country">
+                                    <option value="week">This Week</option>
+                                    <option value="mon">Monday</option>
+                                    <option value="tue">Tuesday</option>
+                                    <option value="wed">Wednesday</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            
+
+            <div class="row m-auto">
+                <div class="col-md-10 m-auto">
+                    <div class="row my-4 custom-shadow-div bg-white justify-content-center">
+                        <div class="col-md-4 d-flex justify-content-center p-4">
+                            <img src="./assets/img/header component/buildozer.jpg" style="width:100%;" alt="">
+                        </div>
+                        <div class="col-md-8  m-auto  ">
+                            <div class="row m-auto custom-overdue-div ">
+                                <div class="col-md-6 mt-3">
+                                    <div class="custom-name-text">Name</div>
+                                    <div class="custom-cat-text">Cat K7633</div>
+                                </div>
+                                <div class="col-md-6 mt-3 custom-overdue-btn">
+                                    <div><a href="./myEquipment.html"><button class="btn btn-danger custom-over-btn">Overdue</button></a></div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-4">
+                                    <div class="row g-0 my-3 ">
+                                        <div class="col-2 m-auto d-none d-lg-block custom-duration-align"><i class="fas fa-user my-auto  p-0"></i></div>
+                                        <div class="col-md-8 ">
+                                            <div class="custom-hirer-duration">Hirer</div>
+                                            <div class="custom-john-duration">John Alomo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="row g-0 my-3 ">
+                                        <div class="col-4 m-auto d-none d-lg-block custom-duration-align"><i class="fas fa-clock my-auto  p-0"></i></div>
+                                        <div class="col-md-6 ">
+                                            <div class="custom-hirer-duration">Duration</div>
+                                            <div class="custom-john-duration">2 Weeks</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="row g-0 my-3 ">
+                                        <div class="col-2 m-auto d-none d-lg-block custom-duration-align"><i class="fas fa-map-marker my-auto  p-0"></i></div>
+                                        <div class="col-md-6 ">
+                                            <div class="custom-hirer-duration">Location</div>
+                                            <div class="custom-john-duration">Lagos</div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row m-auto">
+                <div class="col-md-10 m-auto">
+                    <div class="row my-4 custom-shadow-div bg-white justify-content-center">
+                        <div class="col-md-4 d-flex justify-content-center p-4">
+                            <img src="./assets/img/header component/buildozer.jpg" style="width:100%;" alt="">
+                        </div>
+                        <div class="col-md-8  m-auto  ">
+                            <div class="row m-auto custom-overdue-div ">
+                                <div class="col-md-6 mt-3">
+                                    <div class="custom-name-text">Name</div>
+                                    <div class="custom-cat-text">Cat K7633</div>
+                                </div>
+                                <div class="col-md-6 mt-3 custom-overdue-btn">
+                                    <div><a href="./myEquipment.html"><button class="btn btn-success custom-over-btn">Hired</button></a></div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-4">
+                                    <div class="row g-0 my-3 ">
+                                        <div class="col-2 m-auto d-none d-lg-block custom-duration-align"><i class="fas fa-user my-auto  p-0"></i></div>
+                                        <div class="col-md-8 ">
+                                            <div class="custom-hirer-duration">Hirer</div>
+                                            <div class="custom-john-duration">John Alomo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="row g-0 my-3 ">
+                                        <div class="col-4 m-auto d-none d-lg-block custom-duration-align"><i class="fas fa-clock my-auto  p-0"></i></div>
+                                        <div class="col-md-6 ">
+                                            <div class="custom-hirer-duration">Duration</div>
+                                            <div class="custom-john-duration">2 Weeks</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="row g-0 my-3 ">
+                                        <div class="col-2 m-auto d-none d-lg-block custom-duration-align"><i class="fas fa-map-marker my-auto  p-0"></i></div>
+                                        <div class="col-md-6 ">
+                                            <div class="custom-hirer-duration">Location</div>
+                                            <div class="custom-john-duration">Lagos</div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-10 mx-auto my-4 custom-hired-div">
+                    <span class="custom-hired-span">Available</span>
+                </div>
+            </div>
+
+            <div class="row m-auto">
+                <div class="col-md-10 m-auto">
+                    <div class="row my-4 custom-shadow-div bg-white justify-content-center">
+                        <div class="col-md-4 d-flex justify-content-center p-4">
+                            <img src="./assets/img/header component/buildozer.jpg" style="width:100%;" alt="">
+                        </div>
+                        <div class="col-md-8  m-auto  ">
+                            <div class="row m-auto custom-overdue-div ">
+                                <div class="col-md-6 mt-3">
+                                    <div class="custom-name-text">Name</div>
+                                    <div class="custom-cat-text">Cat K7633</div>
+                                </div>
+                                <div class="col-md-6 mt-3 custom-overdue-btn">
+                                    <div><a href="./myEquipment.html"><button class="btn btn-primary custom-over-btn">Available</button></a></div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-4">
+                                    <div class="row g-0 my-3 ">
+                                        <div class="col-2 m-auto d-none d-lg-block custom-duration-align"><i class="fas fa-user my-auto  p-0"></i></div>
+                                        <div class="col-md-8 ">
+                                            <div class="custom-hirer-duration">Hirer</div>
+                                            <div class="custom-john-duration">John Alomo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="row g-0 my-3 ">
+                                        <div class="col-4 m-auto d-none d-lg-block custom-duration-align"><i class="fas fa-clock my-auto  p-0"></i></div>
+                                        <div class="col-md-6 ">
+                                            <div class="custom-hirer-duration">Duration</div>
+                                            <div class="custom-john-duration">2 Weeks</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="row g-0 my-3 ">
+                                        <div class="col-2 m-auto d-none d-lg-block custom-duration-align"><i class="fas fa-map-marker my-auto  p-0"></i></div>
+                                        <div class="col-md-6 ">
+                                            <div class="custom-hirer-duration">Location</div>
+                                            <div class="custom-john-duration">Lagos</div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row m-auto">
+                <div class="col-md-10 m-auto">
+                    <div class="row my-4 custom-shadow-div bg-white justify-content-center">
+                        <div class="col-md-4 d-flex justify-content-center p-4">
+                            <img src="./assets/img/header component/buildozer.jpg" style="width:100%;" alt="">
+                        </div>
+                        <div class="col-md-8  m-auto  ">
+                            <div class="row m-auto custom-overdue-div ">
+                                <div class="col-md-6 mt-3">
+                                    <div class="custom-name-text">Name</div>
+                                    <div class="custom-cat-text">Cat K7633</div>
+                                </div>
+                                <div class="col-md-6 mt-3 custom-overdue-btn">
+                                    <div><a href="./myEquipment.html"><button class="btn btn-primary custom-over-btn">Available</button></a></div>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-4">
+                                    <div class="row g-0 my-3 ">
+                                        <div class="col-2 m-auto d-none d-lg-block custom-duration-align"><i class="fas fa-user my-auto  p-0"></i></div>
+                                        <div class="col-md-8 ">
+                                            <div class="custom-hirer-duration">Hirer</div>
+                                            <div class="custom-john-duration">John Alomo</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="row g-0 my-3 ">
+                                        <div class="col-4 m-auto d-none d-lg-block custom-duration-align"><i class="fas fa-clock my-auto  p-0"></i></div>
+                                        <div class="col-md-6 ">
+                                            <div class="custom-hirer-duration">Duration</div>
+                                            <div class="custom-john-duration">2 Weeks</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="row g-0 my-3 ">
+                                        <div class="col-2 m-auto d-none d-lg-block custom-duration-align"><i class="fas fa-map-marker my-auto  p-0"></i></div>
+                                        <div class="col-md-6 ">
+                                            <div class="custom-hirer-duration">Location</div>
+                                            <div class="custom-john-duration">Lagos</div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>        
+    </header>
+
+
+    <div class="container-fluid bg-warnin">
+        <div class="spanner-container-3 d-none d-lg-block">
+            <img src="./assets/img/header component/Vector.svg" class="" alt="">
+        </div>
+    </div>
+    <div class="container-fluid bg-info">
+        <div class="spanner-container-4 d-none d-lg-block">
+            <img src="./assets/img/header component/Vector.svg" class="" alt="">
+        </div>
+    </div>
+    
+
+    <script src="./assets/js/slider.js"></script>
+</body>
+
+</html>

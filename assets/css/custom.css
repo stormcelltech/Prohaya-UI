@@ -138,12 +138,8 @@ body {
 /* HEADER SETTINGS */
 
 .custom-header-padding {
-<<<<<<< HEAD
     padding-top: 2rem;
     padding-bottom: 5rem;
-=======
-    padding: 5rem;
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
 }
 
 .header-img img {
@@ -153,7 +149,6 @@ body {
     margin-left: -40px;
 }
 
-<<<<<<< HEAD
 .custom-header-img2 img {
     width: 350px;
     margin-bottom: 50px;
@@ -163,18 +158,6 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-=======
-.custom-header-img2 img{
-    width: 350px;
-    margin-bottom: 50px;
-    
-}
-
-.custom-header-img2{
-    margin: 0 auto;
-    display: flex;
-    justify-content:center;
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
 }
 
 .custom-heading {
@@ -249,14 +232,10 @@ body {
     border-radius: 6px!important;
     background: #fff;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.505);
-<<<<<<< HEAD
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 10px;
     padding-left: 10px;
-=======
-    padding: 15px;
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
 }
 
 .spanner-container img {
@@ -659,11 +638,7 @@ body {
 
 .card-id {
     font-family: "Raleway Bold";
-<<<<<<< HEAD
     font-size: 20px;
-=======
-    font-size: 25px;
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
 }
 
 .card-avail {
@@ -673,11 +648,7 @@ body {
 }
 
 .card-elevation {
-<<<<<<< HEAD
     font-size: 20px;
-=======
-    font-size: 25px;
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
 }
 
 .card-rate i,
@@ -688,20 +659,13 @@ body {
 }
 
 .card-rate i {
-<<<<<<< HEAD
     /* padding: 0 20px; */
-=======
-    padding: 0 20px;
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
 }
 
 .card-port {
     font-family: "Raleway Bold";
     margin-top: 20px;
-<<<<<<< HEAD
     font-size: 12px;
-=======
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
 }
 
 .btn-card-primary {
@@ -719,10 +683,7 @@ body {
 .section-settings-6 {
     padding: 100px 0;
     background: #FFF7E4;
-<<<<<<< HEAD
     margin-top: 100px;
-=======
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
 }
 
 .heading-paragraph {
@@ -743,11 +704,7 @@ body {
 }
 
 .img-container img {
-<<<<<<< HEAD
     width: 40rem;
-=======
-    width: 700px;
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     position: absolute;
     margin-top: -160px;
 }
@@ -756,19 +713,11 @@ body {
     margin: 0 auto;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
 .line-divider div {
     background: #E4DBC4;
     width: 100%;
     height: 3px;
-<<<<<<< HEAD
     margin: 5px 0;
-=======
-    margin: 110px 0;
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
 }
 
 .recentOrder {
@@ -790,10 +739,6 @@ body {
     border: solid 2px var(--primary-color);
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
 .custom-brown-btn {
     background: var(--primary-color)!important;
     color: #fff;
@@ -829,7 +774,6 @@ body {
 
 .footer-copyright {
     color: var(--primary-color);
-<<<<<<< HEAD
 }
 
 .section-settings-7 {
@@ -837,75 +781,38 @@ body {
 }
 
 .user-login-img img {
-=======
-
-}
-
-.section-settings-7{
-    padding: 100px 0;
-}
-
-.user-login-img img{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     width: 50px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
-<<<<<<< HEAD
 }
 
 .active-user {
-=======
-
-}
-
-.active-user{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     font-family: "Raleway Bold";
     padding-right: 10px;
 }
 
-<<<<<<< HEAD
 .order-custom-bg {
     background: #E4DBC4;
 }
 
 .invoice-heading {
-=======
-.order-custom-bg{
-    background: #E4DBC4;
-}
-
-.invoice-heading{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     font-family: "Raleway Bold";
     color: var(--color-gray);
     font-size: 24px;
 }
 
-<<<<<<< HEAD
 .user-invoice-details-container .username {
-=======
-.user-invoice-details-container .username{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     font-family: "Raleway Bold";
     font-weight: 700;
     font-size: 17px;
 }
 
-<<<<<<< HEAD
 .user-invoice-details-container .usericon img {
     width: 40px;
 }
 
 .user-invoice-display {
-=======
-.user-invoice-details-container .usericon img{
-    width: 100px;
-}
-
-.user-invoice-display{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     background: url(../img/background/card-design.png);
     background-size: cover;
     background-position: center center;
@@ -914,7 +821,6 @@ body {
     height: 250px;
     margin: 0 auto;
     border-radius: 10px;
-<<<<<<< HEAD
 }
 
 .user-invoice-display .invoice-number {
@@ -923,50 +829,21 @@ body {
 }
 
 .user-invoice-display .invoice-no {
-=======
-
-}
-
-.user-invoice-display .invoice-number{
-    color: var(--color-gray2);
-    font-family:var(--nunito-regular);
-}
-.user-invoice-display .invoice-no{
-    color: #fff;
-    font-family: var(--nunito-bold);
-}
-.user-invoice-display .issued-date span{
-    color: var(--color-gray2);
-    font-family:var(--nunito-regular);
-    margin-right: 5px;
-}
-
-.user-invoice-display .issued-date{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     color: #fff;
     font-family: var(--nunito-bold);
 }
 
-<<<<<<< HEAD
 .user-invoice-display .issued-date span {
-=======
-.user-invoice-display .returned-date span{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     color: var(--color-gray2);
     font-family: var(--nunito-regular);
     margin-right: 5px;
 }
 
-<<<<<<< HEAD
 .user-invoice-display .issued-date {
-=======
-.user-invoice-display .returned-date{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     color: #fff;
     font-family: var(--nunito-bold);
 }
 
-<<<<<<< HEAD
 .user-invoice-display .returned-date span {
     color: var(--color-gray2);
     font-family: var(--nunito-regular);
@@ -974,19 +851,10 @@ body {
 }
 
 .user-invoice-display .returned-date {
-=======
-.user-invoice-display .invoice-bill{
-    color: var(--color-gray2);
-    font-family:var(--nunito-regular);
-}
-
-.user-invoice-display .invoice-name{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     color: #fff;
     font-family: var(--nunito-bold);
 }
 
-<<<<<<< HEAD
 .user-invoice-display .invoice-bill {
     color: var(--color-gray2);
     font-family: var(--nunito-regular);
@@ -1003,45 +871,25 @@ body {
 }
 
 .user-invoice-display .invoice-address {
-=======
-.user-invoice-display .invoice-name{
-    color: #fff;
-    font-family: var(--nunito-bold);
-}
-.user-invoice-display .invoice-address{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     color: #fff;
     font-family: var(--nunito-regular);
     font-weight: lighter;
 }
 
-<<<<<<< HEAD
 .custom-invoice-card {
-=======
-.custom-invoice-card{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     border-radius: 4px;
     border: 0!important;
 }
 
-<<<<<<< HEAD
 .custom-invoice-table thead tr {
     border-top: solid 1px #ddd!important;
 }
 
 .order-details {
-=======
-.custom-invoice-table thead tr{
-    border-top: solid 1px #ddd!important;
-}
-
-.order-details{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     font-family: "Raleway Bold";
     color: var(--primary-color);
 }
 
-<<<<<<< HEAD
 .invoice-badge {
     margin: 20px 0!important;
 }
@@ -1051,88 +899,50 @@ tr.invoice-badge {
 }
 
 .add-icon i {
-=======
-.invoice-badge{
-    margin: 20px 0!important;
-}
-
-
-tr.invoice-badge{
-  margin: 20px 0;
-}
-
-.add-icon i{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     font-size: 25px;
     color: #2B96FF;
 }
 
-<<<<<<< HEAD
 .invoice-badge .price-1 {
-=======
-
-.invoice-badge .price-1{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     border: solid 1px #cecbcb;
     padding: 10px 20px;
     border-radius: 8px;
     font-family: "Raleway Bold";
 }
 
-<<<<<<< HEAD
 .invoice-badge .price-2 {
-=======
-.invoice-badge .price-2{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     border: solid 1px #cecbcb;
     padding: 10px 15px;
     border-radius: 8px;
     font-family: "Raleway Bold";
 }
 
-<<<<<<< HEAD
 .invoice-badge .price-3 {
-=======
-.invoice-badge .price-3{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     border: solid 1px #cecbcb;
     padding: 10px 15px;
     border-radius: 8px;
     font-family: "Raleway Bold";
 }
 
-<<<<<<< HEAD
 .invoice-badge .price-4 {
-=======
-.invoice-badge .price-4{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     border: solid 1px #cecbcb;
     padding: 10px 15px;
     border-radius: 8px;
     font-family: "Raleway Bold";
 }
 
-<<<<<<< HEAD
 .invoice-badge .price-5 {
-=======
-.invoice-badge .price-5{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     border: solid 1px #cecbcb;
     padding: 10px 15px;
     border-radius: 8px;
     font-family: "Raleway Bold";
 }
 
-<<<<<<< HEAD
 .payment-details {
-=======
-.payment-details{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     color: var(--primary-color);
     font-family: "Raleway Bold";
 }
 
-<<<<<<< HEAD
 .invoice-amount {
     font-family: "Raleway Bold";
 }
@@ -1140,22 +950,11 @@ tr.invoice-badge{
 .Account-name span,
 .Account-number span,
 .Bank-name span {
-=======
-.invoice-amount{
-    font-family: "Raleway Bold";
-}
-
-.Account-name span, .Account-number span, .Bank-name span{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     font-family: "Raleway Bold";
     padding: 0 10px;
 }
 
-<<<<<<< HEAD
 .btn-confirm {
-=======
-.btn-confirm{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     background: var(--secondary-color);
     padding: 12px 70px;
     color: #fff;
@@ -1163,25 +962,16 @@ tr.invoice-badge{
     transition: all ease-in-out .5s;
 }
 
-<<<<<<< HEAD
 .btn-confirm:hover {
-=======
-.btn-confirm:hover{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     background: #0b62ba;
     color: #fff;
 }
 
-<<<<<<< HEAD
 .payment-instruction {
-=======
-.payment-instruction{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     color: var(--primary-color);
     font-family: var(--nunito-bold);
 }
 
-<<<<<<< HEAD
 .hire-img-details-container img {
     width: 50px;
     height: 50px;
@@ -1189,21 +979,10 @@ tr.invoice-badge{
 }
 
 .hire-details div {
-=======
-.hire-img-details-container img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-
-}
-
-.hire-details div{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     font-size: 15px;
     font-family: "Raleway Bold";
 }
 
-<<<<<<< HEAD
 .hire-details p {
     font-size: 15px;
 }
@@ -1213,24 +992,11 @@ tr.invoice-badge{
 }
 
 .hire-address {
-=======
-.hire-details p{
-    font-size: 15px;
-}
-.hire-title{
-    font-family: "Raleway Bold";
-}
-.hire-address{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     font-family: var(--nunito-bold);
     font-size: 15px;
 }
 
-<<<<<<< HEAD
 .hire-btn {
-=======
-.hire-btn{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     background: var(--primary-color);
     color: #fff;
     border-radius: 8px;
@@ -1238,17 +1004,12 @@ tr.invoice-badge{
     transition: all ease-in-out .5s;
 }
 
-<<<<<<< HEAD
 .hire-btn:hover {
-=======
-.hire-btn:hover{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     background: #785d11;
     color: #fff;
 }
 
 
-<<<<<<< HEAD
 /**equipment details body design**/
 
 .equip-detail .spann img {
@@ -1256,41 +1017,21 @@ tr.invoice-badge{
 }
 
 .equip-detail .flexend {
-=======
-
-
-/**equipment details body design**/
-
-.equip-detail .spann img{ 
-    /* width: 80%;   */
-}
-.equip-detail .flexend{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     display: flex;
     justify-content: center;
     justify-content: space-around;
 }
 
-<<<<<<< HEAD
 .equip-detail h4 {
     font-family: "Raleway Bold";
 }
 
 .equip-detail .direct {
-=======
-.equip-detail h4{
-    font-family: "Raleway Bold";
-}
-
-
-.equip-detail .direct{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     display: flex;
     justify-content: center;
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .equip-detail .direct .mybtn {
     background-color: #937114;
     border-style: none;
@@ -1303,115 +1044,58 @@ tr.invoice-badge{
 }
 
 .equipmain .dots div {
-=======
-.equip-detail .direct .mybtn{
-  background-color: #937114;
-  border-style: none;
-  padding: 7px;
-  border-radius: 3px;
-}
-
- .equipmain .dots{
-    margin-left:33%;
-    
-} 
-
-.equipmain .dots div{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     height: 4px;
     width: 9px;
     background-color: rgb(59, 56, 56);
     top: -70px;
 }
 
-<<<<<<< HEAD
 .row .flex {
     background: url(./);
 }
 
 .flex .border {
-=======
-.row .flex{
-    background: url(./);
-}
-
-.flex .border{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     border-radius: 4px;
     padding: 9px;
     margin-bottom: 12px;
 }
-<<<<<<< HEAD
 
 .flex .left {
-=======
-.flex .left{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     margin: 4spx;
     border: 1px solid;
     border-top: none;
     border-left: none;
     border-bottom: none;
-<<<<<<< HEAD
     height: 700px;
 }
 
 .text-area .mybtn {
-=======
-    height: 700px; 
-    
-    
-}
-
-.text-area .mybtn{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     text-align: center;
     color: #fff;
     background-color: rgb(0, 140, 255);
     padding: 6px 14px 6px 14px;
 }
 
-<<<<<<< HEAD
 .right .flex-item {
-=======
-.right .flex-item{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     display: flex;
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .star-area {
-=======
-.star-area{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     display: flex;
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .star-area .rate i {
     font-size: 20px;
 }
 
 .equip-detail-form input {
-=======
-.star-area .rate i{
-    font-size: 20px;
-    
-}
-
-.equip-detail-form input{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     width: 100%;
     height: 120px;
 }
 
-<<<<<<< HEAD
 .mybttn {
-=======
-.mybttn{
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     margin-left: 68%;
     padding: 10px 44px;
     text-decoration: none;
@@ -1420,7 +1104,6 @@ tr.invoice-badge{
     background-color: #2B96FF;
 }
 
-<<<<<<< HEAD
 .equip-detail .spa img {
     position: relative;
     /* width: 60%; */
@@ -1462,490 +1145,3 @@ tr.invoice-badge{
     width: 100%;
     height: 200px;
 }
-=======
-
-.equip-detail .spa img{
-    position: relative; 
-   /* width: 60%; */
-   top:80% ;
-}
-/* EQUIPMENT LISTING */
-.custom_john{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23.48px;
-    letter-spacing: 00.15%;
-    margin: 0px 28px;
-}
-.custom_listing{
-    font-family: 'Raleway' !important;
-    font-style: normal !important;
-    font-weight: 700 !important;
-    font-size: 24px !important;
-    line-height: 28px !important;
-    color: #000000 !important;
-    margin: 15px 0px ;
-   
-   
-}
-.custom-listing-padding {
-    padding: 3rem 7rem 3rem 15rem ;
-}
-.custom_hr{
-    width: 2px;
-    height: 100%;
-    background: #E4DBC4;
-    margin: auto;
-
-}
-.custom_photo_section{
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 23px;
-    letter-spacing: 0.005em;
-    color: #000000;
-   
-}
-.custom-labels{
-    /* font-size: 15px;
-    font-weight: 700; */
-    color: #000000;
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 23px;
-    letter-spacing: 0.005em;
-    
-}
-.custom-input{
-    border-radius: 12px;
-    border: 1px solid #937114;
-    background: rgba(228, 219, 196, 0.23);
-    margin: 5px 0px 30px 0px;
-    padding: 10px;
-}
-.custom-input:focus{
-    border: 1px solid #937114 !important;
-    background: rgba(228, 219, 196, 0.23) !important;
-    box-shadow: none;
-
-}
-
-.custom-row-padding{
-    margin-top: 15px;
-}
-.custom-textarea{
-    border-radius: 13px;
-    border: 1px solid #937114;
-    background: rgba(228, 219, 196, 0.23);
-}
-.custom-select{
-    border-radius: 13px !important;
-    border: 1px solid #937114;
-    background: rgba(228, 219, 196, 0.23);
-}
-.custom-upload{
-    /* font-size: 13px;
-    margin: 10px 0px;
-    color: #000000; */
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 23px;
-    letter-spacing: 0.005em;
-    color: #687D77;
-    margin: 10px 0px;
-}
-.custom-image-upload {
-    display: flex;
-    justify-content: center;
-    background: rgba(228, 219, 196, 0.3);
-    height: 400px;
-}
-.custom-image-upload  img{
-    margin: auto;
-}
-.custom-thumbnail{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    width: 60px !important;
-  }
-  .custom-thumb-section{
-      margin: 20px 0px;
-  }
-  .custom-check-label{
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 0.0025em;
-    color: #000000;
-  }
-  .custom-margin{
-      margin: 10px 0px;
-  }
-  .custom-button{
-    display: flex;
-    justify-content: center;
-    margin: 40px 0px 0px 0px;
-  }
-  .custom-button button{
-      padding: 10px;
-      width: 100%;
-  }
-  .spanner-container-1 img {
-    width: 150px;
-    z-index: -1;
-    position: relative;
-    margin-top: -1300px;
-    margin-left: -28px;
-}
-.spanner-container-2 img {
-    width: 150px;
-    z-index: -1;
-    position: absolute;
-    margin-top: -300px;
-    margin-left: 1100px;
-    transform: rotate(-90deg);
-}
-.custom-textarea:focus{
-    border: 1px solid #937114 !important;
-    background: rgba(228, 219, 196, 0.23) !important;
-    box-shadow: none;
-
-}
-.custom-select:focus{
-    border: 1px solid #937114 !important;
-    background: rgba(228, 219, 196, 0.23) !important;
-    box-shadow: none;
-
-}
-@media (max-width: 1200px) {
-    .spanner-container-2 img {
-        width: 150px;
-        z-index: -1;
-        position: absolute;
-        
-       right: 0;
-       /*   top: 700;
-       margin-left: 50px; */
-        transform: rotate(-90deg);
-    }
-    .custom-listing-padding{
-        padding: 4px ;
-    }
-    .custom-image-upload{
-        height: 300px;
-    }
-    
-}
-@media (max-width: 992px) {
-    .spanner-container-2 img {
-        width: 150px;
-        z-index: -1;
-        position: absolute;
-        
-       right: 0;
-       /*   top: 700;
-       margin-left: 50px; */
-        transform: rotate(-90deg);
-    }
-    .custom-listing-padding{
-        padding: 4px ;
-    }
-    .custom-image-upload{
-        height: 300px;
-    }
-    
-}
-
-@media (max-width: 768px) {
-    .spanner-container-2 img {
-        width: 100px;
-        z-index: -1;
-        position: relative;
-        margin-top: -280px;
-        margin-left: 50px;
-        transform: rotate(-90deg);
-    }
-    .custom-listing-padding{
-        padding: 4px ;
-    }
-    .custom-image-upload{
-        height: 300px;
-    }
-    
-}
-@media (max-width: 576px) {
-    .custom-listing-padding{
-        padding: 4px ;
-    }
-    .custom-image-upload{
-        height: 200px;
-    }
-    
-}
-@media (max-width: 414px) {
-    .custom-listing-padding{
-        padding: 4px ;
-    }
-    .custom-image-upload{
-        height: 200px;
-    }
-    
-}
-
-/*        MY EQUIPMENT PAGE      */
-.custom-equipment-listing{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-}
-.custom-equipment-padding{
-    padding: 3rem 0rem 3rem 0rem ;
-}
-.custom-hired-text{
-    font-family: "Nunito Sans Regular";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 23px;
-    letter-spacing: 0.005em;
-   
-}
-.custom-cat-text{
-    font-family: "Nunito Sans Regular";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21.9663px;
-    line-height: 30px;
-    letter-spacing: 0.005em;
-    color: #000000;
-}
-
-.custom-name-text{
-    font-family: "Nunito Sans Regular";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16.7978px;
-    line-height: 23px;
-    letter-spacing: 0.004em;
-    color: #9AA9A5;
-    
-}
-
-
-.custom-overdue-btn{
-    text-align: right !important;
-}
-
-.custom-duration-align{
-    text-align: right !important; 
-    font-size: 20px;
-}
-
-
-.custom-hirer-duration{
-    font-family: "Nunito Sans Regular";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 23px;
-    letter-spacing: 0.004em;
-    color: #9AA9A5;
-    text-align: left; 
-}
-.custom-john-duration{
-    font-family: "Nunito Sans Regular";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 0.0025em;
-    color: #000000;
-    text-align: left;
-}
-.custom-john{
-    font-family: "Nunito Sans Regular";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 0.0025em;
-    color: #000000;
-    text-align: left;
-    
-}
-.custom-hirer{
-    font-family: "Nunito Sans Regular";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 23px;
-    letter-spacing: 0.004em;
-    color: #9AA9A5;
-    text-align: left;
-    
-}
-.custom-btn-click{
-    text-align: right;
-}
-
-.custom-hired-span{
-    font-family: "Nunito Sans Regular";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 23px;
-    letter-spacing: 0.005em;
-    color: #000000;
-}
-
-.custom-equipment-btn:focus{
-    box-shadow: none !important;
-}
-.custom-over-btn:focus{
-    box-shadow: none !important;
-}
-.custom-equipment-btn:hover{
-    background-color: #937114;
-    border: none;
-}
-.custom-over-btn:hover{
-    background-color: #937114;
-    border: none;
-}
-
-.custom-shadow-div{
-    box-shadow: 5px 5px 5px 5px #7a7a7a20;
-}
-
-
-.spanner-container-3 img {
-    width: 150px;
-    z-index: -1;
-    position: relative;
-    margin-top: -1800px;
-    margin-left: -28px;
-}
-.spanner-container-4 img {
-    width: 150px;
-    z-index: -1;
-    position: absolute;
-    margin-top: -100px;
-    right: 5px;
-    transform: rotate(-90deg);
-}
-
-
-@media (max-width: 992px) {
-    .custom-equipment-listing{
-        text-align: left !important;
-        font-size: 20px;
-    }
-    .custom-btn-click{
-        text-align: right !important;
-    }
-    .custom-hired-div{
-    text-align: left;
-    }
-
-
-    .custom-overdue-btn{
-        text-align: right !important;
-    }
-    .custom-overdue-div{
-        margin-top: 30px;
-    }
-}
-
-@media (max-width: 768px) {
-    .custom-equipment-listing{
-        text-align: left !important;
-        font-size: 20px;
-    }
-    .custom-btn-click{
-        text-align: left !important;
-    }
-     .custom-hired-div{
-      text-align: left;
-     }   
-  
-     .custom-john-duration{
-         text-align: center;
-         font-size: 13px !important;
-     }
-     .custom-hirer-duration{
-         text-align: center;
-     }
-     .custom-overdue-btn{
-         text-align: right !important;
-     }
-     .custom-overdue-div{
-         margin-top: 30px;
-     }
- }
-
-
-@media (max-width: 576px) {
-    .custom-equipment-listing{
-        text-align: center !important;
-    }
-    .custom-btn-click{
-        text-align: center !important;
-    }
-     .custom-hired-div{
-      text-align: center;
-      margin: 10px 0px 0px 0px;
-     }   
-  
-     .custom-john-duration{
-         text-align: center;
-         font-size: 13px !important;
-     }
-     .custom-hirer-duration{
-         text-align: center;
-     }
-     .custom-overdue-btn{
-         text-align: left !important;
-     }
-     .custom-equipment-padding {
-        padding: 2rem 0rem 2rem 0rem;
-    }
- }
-
-@media (max-width: 414px) {
-   .custom-equipment-listing{
-       text-align: center !important;
-   }
-   .custom-btn-click{
-       text-align: center !important;
-   }
-    .custom-hired-div{
-     text-align: center;
-    }   
- 
-    .custom-john-duration{
-        text-align: center;
-        font-size: 13px !important;
-    }
-    .custom-hirer-duration{
-        text-align: center;
-    }
-    .custom-overdue-btn{
-        text-align: left !important;
-    }
-    .custom-equipment-padding {
-        padding: 2rem 0rem 2rem 0rem;
-    }
-}
->>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
