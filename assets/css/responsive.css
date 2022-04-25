@@ -1,6 +1,15 @@
 
     @media (max-width: 575.98px) {
+<<<<<<< HEAD
        
+=======
+        .custom-heading {
+            margin-top: -50px;
+            font-size: 35px;
+            line-height: 35px;
+            letter-spacing: -0.5%;
+        }
+>>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
         .custom-btn-align {
             text-align: center!important;
         }
@@ -65,6 +74,7 @@
             margin-left: -12px;
         }
     }
+<<<<<<< HEAD
 
 
 @media screen and (min-width: 360px) and (max-width: 575.98px) {
@@ -76,6 +86,100 @@
     .margin-remove{
         margin-top: -50px;
     }
+=======
+    /* // Small devices (landscape phones, less than 768px) */
+    
+    @media (max-width: 767.98px) {}
+    /* // Medium devices (tablets, less than 992px) */
+    
+    @media (max-width: 991.98px) {}
+    /* // Large devices (desktops, less than 1200px) */
+    
+    @media (max-width: 1199.98px) {}
+    /* // X-Large devices (large desktops, less than 1400px) */
+    
+    @media (max-width: 1399.98px) {}
+
+
+
+/* Media queries of 360px */
+/* @media (max-width: 360px) {
+    .custom-heading {
+        margin-top: -50px;
+        font-size: 25px!important;
+        line-height: none!important;
+        letter-spacing: none!important;
+    }
+    .custom-br{
+        display: none!important;
+    }
+    .custom-btn-align {
+        text-align: center!important;
+    }
+    .header-img img {
+        width: 21.5em!important;
+        position: relative;
+        margin-top: -290px;
+        margin-left: -80px;
+    }
+    .custom-box div {
+        width: 50px!important;
+        height: 250px;
+        background: #C9B88A;
+        z-index: -1;
+        margin: 0 auto;
+        border-radius: 8px;
+        margin-bottom: -10px;
+        position: relative;
+    }
+    .custom-heading-margin-sm {
+        margin-top: 100px;
+        margin-bottom: -120px!important;
+    }
+    .circle-quote-container {
+        margin: 25px 0;
+    }
+    .circle-quote span:nth-child(1) {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: #CAE4FF;
+    }
+    .circle-quote span:nth-child(2) {
+        width: 330px;
+        height: 10px;
+        background: #E4DBC4;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .circle-quote-img {
+        display: flex;
+        justify-content: center;
+    }
+    .circle-quote-img img {
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .custom-card-title,
+    .custom-card-text {
+        text-align: center;
+    }
+    .spanner-container img {
+        width: 100px;
+        z-index: -1;
+        position: relative;
+        margin-top: -280px;
+        margin-left: -12px;
+    }
+} */
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 575.98px) {
+>>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     .header-img img {
         width: 23.5em!important;
         position: relative;
@@ -226,6 +330,7 @@
         line-height: 35px;
         letter-spacing: -0.5%;
     }
+<<<<<<< HEAD
 
     /* .card-id {
         font-family: "Raleway Bold";
@@ -237,6 +342,8 @@
     }
     
   
+=======
+>>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     .custom-btn-align {
         text-align: center!important;
     }
@@ -339,12 +446,15 @@
         border-radius: 10px;
     
     }
+<<<<<<< HEAD
     .img-container img {
         width: 30rem;
         position: absolute;
         margin-top: -160px;
      
     }
+=======
+>>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     
     }
 
@@ -396,7 +506,10 @@
         margin-left: 40px;
         display: none!important;
     }
+<<<<<<< HEAD
   
+=======
+>>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
 }
 
 
@@ -407,10 +520,13 @@
     .hire-details-sm{
         display: none!important;
     }
+<<<<<<< HEAD
 
     /* .img-container img{
         width: 400px;
     } */
+=======
+>>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     
     .invoice-details-sm{
         width: 100%;
@@ -433,17 +549,23 @@
         margin-top: -290px;
         margin-left: -15px!important;
     }
+<<<<<<< HEAD
    
+=======
+>>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
 }
 
 
 /* // X-Large devices (large desktops, less than 1400px) */
 
 @media screen and (max-width: 1399.98px) {
+<<<<<<< HEAD
     #cardID{
         font-size: 15px!important;
     }
     
+=======
+>>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
     .hire-details-sm{
         display: none!important;
     }
@@ -469,6 +591,7 @@
         margin-top: -290px;
         margin-left: -15px!important;
     }
+<<<<<<< HEAD
 
     .img-container img {
         width: 600px;
@@ -478,3 +601,6 @@
     }
 }
 
+=======
+}
+>>>>>>> bf25f557083a80cd2cdc5272bb85b4e74140666f
