@@ -20,7 +20,8 @@
     <link rel="stylesheet" href="assets/OwlCarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/OwlCarousel/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
-    
+    <link rel="shortcut icon" href="assets/img/icon/prohaya-favicon.ico" type="image/x-icon">
+
 
 
 
@@ -29,16 +30,16 @@
 <body>
 
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
+        
         .loader {
             width: 100%;
             height: 100%;
-            position:fixed;
+            position: fixed;
             top: 0;
             left: 0;
             display: flex;
@@ -47,24 +48,25 @@
             background-color: #f8f1e0;
             z-index: 1000;
         }
-
+        
         .loader img:nth-child(1) {
             width: 110px;
             display: block;
         }
-
+        
         .loader img:nth-child(2) {
             width: 100px;
             display: block;
         }
+        
         .loader div {
             display: block;
         }
-
-        .disappear{
+        
+        .disappear {
             animation: vanish 10s forwards;
         }
-
+        
         @keyframes vanish {
             100% {
                 opacity: 0;
@@ -72,18 +74,18 @@
             }
         }
     </style>
-    
+
     <div class="loader" id="loading">
         <div>
-        <img src="assets/img/logo/logo.png" alt="">
-        <img src="assets/img/loader/Gear-0.3s-200px.svg" alt="">
+            <img src="assets/img/logo/logo.png" alt="">
+            <img src="assets/img/loader/Gear-0.3s-200px.svg" alt="">
         </div>
     </div>
 
     <script>
-    $(window).on('load', function () {
-		$('#loading').fadeOut(1500);
-	});
+        $(window).on('load', function() {
+            $('#loading').fadeOut(1500);
+        });
     </script>
 
     <nav class="navbar navbar-expand-lg navbar-light custom-navWidth bg-light">
@@ -117,6 +119,8 @@
         </div>
     </nav>
 
+    <script>
+    </script>
     <header class="custom-header-padding">
         <div class="container">
             <div class="row">
@@ -160,7 +164,7 @@
                 <div class="custom-header-img2 d-md-none">
                     <img src="assets/img/header component/AdobeStock_435388097_Preview_Editorial_Use_Only 1.png">
                 </div>
-                
+
             </div>
 
 
@@ -315,32 +319,32 @@
         <div class="container" data-aos="fade-up" data-aos-duration="2000">
             <div class="owl-carousel owl-theme">
                 <div class="card ms-3 me-3 owl-card shadow">
-                <img src="./assets/img/background/unsplash_jibUsRaauLY.png" width="50px" class="p-3" alt="...">
-                <div class="card-title custom-card-title-2 px-3">
-                    Excavators
-                </div>  
-                <div class="card-text font-weight-bold px-3 pb-3">
-                    Available
+                    <img src="./assets/img/background/unsplash_jibUsRaauLY.png" width="50px" class="p-3" alt="...">
+                    <div class="card-title custom-card-title-2 px-3">
+                        Excavators
+                    </div>
+                    <div class="card-text font-weight-bold px-3 pb-3">
+                        Available
+                    </div>
                 </div>
-            </div>
                 <div class="card ms-3 me-3 owl-card shadow">
-                <img src="./assets/img/background/unsplash_AI2YT94sSeA@2x.png" width="50" class="card-img-top p-3" alt="...">
-                <div class="card-title custom-card-title-2 px-3">
-                    Bulldozers
-                </div>    
-                <div class="card-text font-weight-bold px-3 pb-3">
-                    Available
+                    <img src="./assets/img/background/unsplash_AI2YT94sSeA@2x.png" width="50" class="card-img-top p-3" alt="...">
+                    <div class="card-title custom-card-title-2 px-3">
+                        Bulldozers
+                    </div>
+                    <div class="card-text font-weight-bold px-3 pb-3">
+                        Available
+                    </div>
                 </div>
-            </div>
                 <div class="card ms-3 me-3 owl-card shadow">
-                <img src="./assets/img/background/unsplash_jibUsRaauLY.png" width="50" class="card-img-top p-3" alt="...">
-                <div class="card-title custom-card-title-2 px-3">
-                    Graders
-                </div>  
-                <div class="card-text font-weight-bold px-3 pb-3">
-                    Available
+                    <img src="./assets/img/background/unsplash_jibUsRaauLY.png" width="50" class="card-img-top p-3" alt="...">
+                    <div class="card-title custom-card-title-2 px-3">
+                        Graders
+                    </div>
+                    <div class="card-text font-weight-bold px-3 pb-3">
+                        Available
+                    </div>
                 </div>
-            </div>
                 <div class="card ms-3 me-3 owl-card shadow">
                     <img src="./assets/img/background/unsplash_9qfH_EIzH6w.png" width="50" class="card-img-top p-3" alt="...">
                     <div class="card-title custom-card-title-2 px-3">
@@ -357,30 +361,30 @@
 
 
         <script>
-           $(document).ready(function(){
-               $(".owl-carousel").owlCarousel({
-                   nav:true,
-                   navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
-                //    slideBy: 2,
-                   autoplay:true,
-                   dots:true,
-                   loop:true,
-                   responsive:{
-                       0: {
-                           items:1,
-                           nav:false,
-                       },
-                       425: {
-                           items: 2,
-                           nav:false,
-                       },
-                       758: {
-                           items: 3,
-                       }
-                   }
+            $(document).ready(function() {
+                $(".owl-carousel").owlCarousel({
+                    nav: true,
+                    navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
+                    //    slideBy: 2,
+                    autoplay: true,
+                    dots: true,
+                    loop: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: false,
+                        },
+                        425: {
+                            items: 2,
+                            nav: false,
+                        },
+                        758: {
+                            items: 3,
+                        }
+                    }
 
-               });
-           });
+                });
+            });
         </script>
     </section>
     <!-- Owlcarousel slider end -->
@@ -586,12 +590,12 @@
 
 
 
-<script>
-  AOS.init({
-      once:true,
-      animatedClassName: "aos-animate",
-  });
-</script>
+    <script>
+        AOS.init({
+            once: true,
+            animatedClassName: "aos-animate",
+        });
+    </script>
     <script src="./assets/js/slider.js"></script>
 </body>
 

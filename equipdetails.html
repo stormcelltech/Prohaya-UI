@@ -12,10 +12,72 @@
     <link rel="stylesheet" href="./assets/css/carousel.css">
     <script src="https://kit.fontawesome.com/151ccf5101.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="shortcut icon" href="assets/img/icon/prohaya-favicon.ico" type="image/x-icon">
+
 
 </head>
 
 <body>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .loader {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f1e0;
+            z-index: 1000;
+        }
+        
+        .loader img:nth-child(1) {
+            width: 110px;
+            display: block;
+        }
+        
+        .loader img:nth-child(2) {
+            width: 100px;
+            display: block;
+        }
+        
+        .loader div {
+            display: block;
+        }
+        
+        .disappear {
+            animation: vanish 10s forwards;
+        }
+        
+        @keyframes vanish {
+            100% {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    </style>
+
+    <div class="loader" id="loading">
+        <div>
+            <img src="assets/img/logo/logo.png" alt="">
+            <img src="assets/img/loader/Gear-0.3s-200px.svg" alt="">
+        </div>
+    </div>
+
+    <script>
+        $(window).on('load', function() {
+            $('#loading').fadeOut(1500);
+        });
+    </script>
+
     <nav class="navbar navbar-expand-lg navbar-light custom-navWidth bg-light">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="assets/img/logo/logo.png" class="logo" alt=""></a>
