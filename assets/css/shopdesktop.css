@@ -1,0 +1,31 @@
+.card-id {
+    font-family: "Raleway Bold";
+    font-size: 20px;
+}
+
+.card-avail {
+    font-family: "Raleway Bold";
+    color: #937114;
+    font-size: 15px;
+}
+
+.card-elevation {
+    font-size: 20px;
+}
+
+.card-rate i,
+.card-rate span.rate-number {
+    font-size: 16px;
+    color: #937114;
+    font-weight: 600;
+}
+
+.card-port {
+    font-family: "Raleway Bold";
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.container-fluid {
+    max-width: 1340px!important;
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prohaya</title>
+    <script src="./assets/js/jquery-3.6.0.js"></script>
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script src="assets/OwlCarousel/dist/owl.carousel.min.js"></script>
+    <script src="./assets/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <script src="https://kit.fontawesome.com/151ccf5101.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+    
+
+
+
+</head>
+
+<body class="order-custom-bg">
+    <nav class="navbar navbar-expand-lg navbar-light custom-navWidth bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo/logo.png" class="logo" alt=""></a>
+           
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav custom-nav-link ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active custom-active" href="order.html">Transaction</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <!-- <div class="custom-nav-btn-container">
+                    <a href="login.html" class="signin-link">Sign in</a>
+                    <a href="signup.html" class="custom-btn-primary">Sign Up</a>
+                </div> -->
+                <div class="logined-user d-md-block d-none">
+                    <div class="active-user d-inline">
+                        John Akanson
+                    </div>
+                    <div class="user-login-img d-inline">
+                        <img src="assets/img/team-icon/ellipse-14.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="section-settings-7">
+        <div class="container">
+            <h5 class="invoice-heading pb-2">Invoice</h5>
+            <div class="row">
+                <div class="col-xl-9 my-2 invoice-details-s">
+                    <div class="card custom-invoice-card">
+                        <div class="card-body">
+                            <div class="user-invoice-details-container pt-5 px-3">
+                                <div class="float-none float-md-start">
+                                    <div class="row">
+                                        <div class="col-2 col-md-3">
+                                            <div class="usericon d-inline">
+                                                <img src="assets/img/icon/avatar.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-5">
+                                            <div class="username-mail-combine d-inline-block">
+                                                <div class="username">
+                                                John Akanson
+                                                </div>
+                                            <p class="user-mail">Johnaka@gmail.com</p>
+        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="float-none float-md-end">
+                                    4517 Washington Ave. Manchester,<br> Kentucky 39495
+                                </div>
+                            </div>
+                        </div>
+                       <div class="card-body mx-lg-3">
+                        <div class="user-invoice-display">
+                            <div class="float-container pt-lg-5 px-4 py-4">
+                             <div class="float-none float-md-start">
+                                 <div class="invoice-number py-2">Invoice Number</div>
+                                 <div class="invoice-no py-2">2334567709</div>
+                                 <div class="issued-date py-2"><span>Issued date:</span> 17 Mar, 2022</div>
+                                 <div class="returned-date py-2"><span>returned date:</span> 17 Mar, 2022</div>
+
+                             </div>
+                             <div class="float-none float-md-end">
+                                <div class="invoice-bill py-2">Billed to</div>
+                                <div class="invoice-name py-2">John Akanson</div>
+                                <div class="invoice-address py-2">4517 Washington Ave. <br> Manchester, Kentucky 39495</div>
+
+                             </div>
+                            </div>
+                         </div>
+
+                         <div class="order-details mt-4">Order details</div>
+                       <div class="table-responsive">
+                        <table class="table mt-3 custom-invoice-table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Item</th>
+                                <th scope="col">Duration</th>
+                                <th scope="col">Delivery</th>
+                                <th scope="col">Rate / day</th>
+                                <th scope="col">Total</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="invoice-badge">
+                                <td class="price-1"><span>Cat K6773</span></td>
+                                <td class="price-2"><span>2 Weeks</span></td>
+                                <td class="price-3"><span>₦20</span></td>
+                                <td class="price-4"><span>₦5</span></td>
+                                <td class="price-5"><span>₦500</span></td>
+                                <td class="add-icon"><a href="#"><i class="fas fa-plus-circle"></i></a></td>
+                              </tr>
+                             
+                            </tbody>
+                          </table>
+                       </div>
+
+                     <div class="row">
+                         <div class="col-md-4 mt-3">
+                          <div class="payment-details">Payment Details</div>
+                          <div class="payment-details-components">
+                           <div class="Account-name my-2">Account Name: <span>John Akanson</span></div>
+                           <div class="Account-number my-2">Account Number: <span>2355676781394</span></div>
+                           <div class="Bank-name my-2">Bank Name: <span>Standard Chartered</span></div>
+                         </div>
+                         </div>
+                         <div class="col-md-4 my-3">
+                             <form action="">
+                                <select class="form-select" id="inputGroupSelect01">
+                                    <option selected>Bank Transfer</option>
+                                  </select>
+                             </form>
+                         </div>
+                         <div class="col-md-4 mt-lg-3">
+                             <div class="subtotal my-2">Sub Total:<span class="invoice-amount px-3">₦500</span></div>
+                             <div class="discount my-2">Discount:<span class="invoice-amount px-3">₦0</span></div>
+                             <div class="total-amount my-2">Total Amount:<span class="invoice-amount px-3">₦500</span></div>
+
+
+                         </div>
+                     </div>
+
+                     <div class="row d-flex justify-content-center my-4">
+                         <div class="col-md-6">
+                             <div class="payment-instruction">
+                                Note : Payment should be made within 24Hrs else order will be cancelled.
+                             </div>
+                         </div>
+                         <div class="col-md-6 text-center text-md-end mt-4 mt-lg-0">
+                             <a href="#" class="btn btn-confirm">Confirm Payment</a>
+                         </div>
+                     </div>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 my-2 hire-details-s">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="hire-title text-md-start text-center">Hire Details</div>
+                            <div class="hire-img-details-container d-flex justify-content-center pt-4">
+                                <div class="float-none float-md-start px-2"><img src="assets/img/team-icon/unsplash_P9WKe5duW-Q.png" alt=""></div>
+
+                                <div class="float-none float-md-end hire-details px-2">
+                                    <div class="h3">Elizade Corporation</div>
+                                    <p class="hire-email">Elizadecorp@outlook.com</p>
+                                </div>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <p class="hire-address text-md-start text-lg-center text-xl-center text-center">4517 Washington Ave. Manchester, Kentucky 39495</p>
+                            <div class="hire-btn-container text-center py-3">
+                                <a href="#" class="btn hire-btn">Contact Hire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-3 my-2 d-lg-none">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="hire-title text-md-start text-center">Hire Details</div>
+                            <div class="hire-img-details-container d-flex justify-content-center pt-4">
+                                <div class="float-none float-md-start px-2"><img src="assets/img/team-icon/unsplash_P9WKe5duW-Q.png" alt=""></div>
+
+                                <div class="float-none float-md-end hire-details px-2">
+                                    <div class="h3">Elizade Corporation</div>
+                                    <p class="hire-email">Elizadecorp@outlook.com</p>
+                                </div>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <p class="hire-address">4517 Washington Ave. Manchester, Kentucky 39495</p>
+                            <div class="hire-btn-container text-center py-3">
+                                <a href="#" class="btn hire-btn">Contact Hire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <footer class="footer-settings">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="logo-brand">
+                                <img src="./assets/img/logo/logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="#" class="footer-link text-decoration-none">Contact Us</a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="#" class="footer-link text-decoration-none">Community</a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="#" class="footer-link text-decoration-none">Company</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-copyright">
+                                © Prohaya, Inc. 2022. We love our users!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+    <div class="footer-cover">
+    </div>
+
+
+
+
+
+
+
+
+
+
+<script>
+  AOS.init({
+      once:true,
+      animatedClassName: "aos-animate",
+  });
+</script>
+    <script src="./assets/js/slider.js"></script>
+</body>
+
+</html>

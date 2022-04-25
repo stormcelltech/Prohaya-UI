@@ -1,0 +1,43 @@
+.card-id {
+    font-family: "Raleway Bold";
+    font-size: 10px;
+}
+
+.card-avail {
+    font-family: "Raleway Bold";
+    color: #937114;
+    font-size: 10px;
+}
+
+.card-elevation {
+    font-size: 10px;
+}
+
+.card-rate i,
+.card-rate span.rate-number {
+    font-size: 10px;
+    color: #937114;
+    font-weight: 600;
+}
+
+.card-rate i {
+    /* padding: 0 20px; */
+}
+
+.card-port {
+    font-family: "Raleway Bold";
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.card-port img {
+    display: none!important;
+}
+
+.btn-card-primary {
+    background: #2B96FF;
+    padding: 6px 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+}
